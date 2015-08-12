@@ -8,7 +8,11 @@ layout: default
         <article class="module color-3">
                 <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
                 <span class="category">{{ post.categories | array_to_sentence_string }}</span>
-                <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
+
+                <p>{{ post.content | split:'<!--break-->' | first }}<p>
+                {% if post.content contains '<!--break-->' %}
+                    <a href="{{ post.url }}">read more</a>
+                {% endif %}
         </article>
     {% endfor %}
 
