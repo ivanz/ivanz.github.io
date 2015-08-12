@@ -1,0 +1,19 @@
+# General
+name: Minimal-Block
+description: "Minimalistic, friendly, responsive."
+url: http://ivanz.github.io
+
+highlighter: rouge
+
+paginate: 5
+permalink: /:title
+
+# Social share and comments.
+disqus-id: yourusername
+twitter: ivanzlatev
+github: ivanz
+google: +yourusername
+
+# RSS feed
+rss-feed-limit: 50
+rss-show-full: "yes"
