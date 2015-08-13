@@ -3,7 +3,7 @@ name: Ivan Zlatev
 description: Hello.
 url: http://ivanz.github.io
 
-highlighter: rouge
+highlighter: pygments
 
 paginate: 5
 permalink: /:title
