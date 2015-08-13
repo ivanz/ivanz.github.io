@@ -16,6 +16,6 @@ dsq_thread_id:
 categories:
   - Coding
 ---
-[<img width="509" height="345" alt="Happy everything" class="centered" src="http://ivanz.com/wp-content/photos/Happy_everything.jpg" />][1]
+[<img width="509" height="345" alt="Happy everything" class="centered" src="{{ site.url }}/wp-content/photos/Happy_everything.jpg" />][1]
 
- [1]: http://ivanz.com/?pp_album=main&#038;pp_cat=fun&#038;pp_image=Happy_everything.jpg "Happy everything"
+ [1]: {{ site.url }}/?pp_album=main&#038;pp_cat=fun&#038;pp_image=Happy_everything.jpg "Happy everything"

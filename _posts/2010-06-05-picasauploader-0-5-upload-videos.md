@@ -29,11 +29,11 @@ I have released version 0.5 of [PicasaUploader ][1]&#8211; the simple PicasaWeb 
 Get it [here][1].
 
 <div id="attachment_719" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2009/04/video-upload1.png"><img class="size-medium wp-image-719" title="Video Upload" src="http://ivanz.com/wp-content/uploads/2009/04/video-upload1-300x221.png" alt="Video Upload" width="300" height="221" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2009/04/video-upload1.png"><img class="size-medium wp-image-719" title="Video Upload" src="{{ site.url }}/wp-content/uploads/2009/04/video-upload1-300x221.png" alt="Video Upload" width="300" height="221" /></a>
   
   <p class="wp-caption-text">
     Video Upload
   </p>
 </div>
 
- [1]: http://ivanz.com/projects/picasauploader/
+ [1]: {{ site.url }}/projects/picasauploader/

@@ -19,7 +19,7 @@ tags:
   - Funny
 ---
 <div id="attachment_696" style="width: 210px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2009/11/Swine-Flu.gif"><img class="size-full wp-image-696" title="Swine Flu" src="http://ivanz.com/wp-content/uploads/2009/11/Swine-Flu.gif" alt="Swine Flu" width="200" height="203" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2009/11/Swine-Flu.gif"><img class="size-full wp-image-696" title="Swine Flu" src="{{ site.url }}/wp-content/uploads/2009/11/Swine-Flu.gif" alt="Swine Flu" width="200" height="203" /></a>
   
   <p class="wp-caption-text">
     Swine Flu as seen under microscope

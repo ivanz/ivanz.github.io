@@ -23,4 +23,4 @@ P.S: I&#8217;ve updated my [Xine Engine][4] to match the fixed frequencies behav
  [1]: http://cvs.gnome.org/viewcvs/banshee/
  [2]: http://abock.org/
  [3]: http://abock.org/2006/07/27/more-bling-from-the-banshee-front/
- [4]: http://ivanz.com/projects/banshee/
+ [4]: {{ site.url }}/projects/banshee/

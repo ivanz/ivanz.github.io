@@ -16,6 +16,6 @@ dsq_thread_id:
 categories:
   - Coding
 ---
-<a title="Instant Rapper Toolkit" target="_top" href="http://ivanz.com/blog/?pp_album=1&#038;pp_image=instant_rapper.jpg" />[<img width="97" height="130" alt="instant rapper" class="pp_empty" src="http://ivanz.com/wp-content/photos/thumb_instant_rapper.jpg" />][1]
+<a title="Instant Rapper Toolkit" target="_top" href="{{ site.url }}/blog/?pp_album=1&#038;pp_image=instant_rapper.jpg" />[<img width="97" height="130" alt="instant rapper" class="pp_empty" src="{{ site.url }}/wp-content/photos/thumb_instant_rapper.jpg" />][1]
 
- [1]: http://ivanz.com/?pp_album=main&#038;pp_cat=fun&#038;pp_image=instant_rapper.jpg "instant rapper"
+ [1]: {{ site.url }}/?pp_album=main&#038;pp_cat=fun&#038;pp_image=instant_rapper.jpg "instant rapper"

@@ -23,6 +23,6 @@ The project, documentation and instructions are here: **<https://github.com/ivan
 
 Can&#8217;t sing enough praises of <a href="http://www.sweetscape.com/010editor/" target="_blank">010 Editor by SweetScape</a> which enabled me to write scripts and define data structures incrementally on top of a binary blob.
 
-[<img class="aligncenter size-medium wp-image-1013" src="http://ivanz.com/wp-content/uploads/2014/10/2014-10-20_01-53-45-300x212.png" alt="2014-10-20_01-53-45" width="300" height="212" />][1]
+[<img class="aligncenter size-medium wp-image-1013" src="{{ site.url }}/wp-content/uploads/2014/10/2014-10-20_01-53-45-300x212.png" alt="2014-10-20_01-53-45" width="300" height="212" />][1]
 
- [1]: http://ivanz.com/wp-content/uploads/2014/10/2014-10-20_01-53-45.png
+ [1]: {{ site.url }}/wp-content/uploads/2014/10/2014-10-20_01-53-45.png

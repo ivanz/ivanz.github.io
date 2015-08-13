@@ -19,7 +19,7 @@ categories:
   - Coding
   - Diary
 ---
-As of writing this post I have commited to Mono&#8217;s SVN repository exactly 403 times. I know it&#8217;s not so impressive it gives me the opportunity to show off my super cool over-engineered hack [git-author-stats.py][1]. <img src="http://ivanz.com/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+As of writing this post I have commited to Mono&#8217;s SVN repository exactly 403 times. I know it&#8217;s not so impressive it gives me the opportunity to show off my super cool over-engineered hack [git-author-stats.py][1]. <img src="{{ site.url }}/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Below is me in Mono SVN. Note that I had to trim &#8220;class/&#8221; from all paths and make the font smaller in order to make the width fit better on my blog.
 
@@ -330,4 +330,4 @@ Files Summary:
 +20   -0   corlib/Test/System/TypeTest.cs
 </small></pre>
 
- [1]: http://ivanz.com/projects/python-goodies
+ [1]: {{ site.url }}/projects/python-goodies

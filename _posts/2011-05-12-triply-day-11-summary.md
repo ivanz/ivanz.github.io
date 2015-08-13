@@ -49,7 +49,7 @@ I am on a cross road at the moment as I need:
 
 But how do both of those fit together? Doesn&#8217;t the design depend on the future features and vice-versa?
 
- [1]: http://ivanz.com/2011/05/02/introducing-triply-for-foursquare/ "Introducing Triply for Foursquare"
+ [1]: {{ site.url }}/2011/05/02/introducing-triply-for-foursquare/ "Introducing Triply for Foursquare"
  [2]: http://triply.net
  [3]: https://foursquare.com/app/triply
  [4]: http://woopra.com

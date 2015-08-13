@@ -55,11 +55,11 @@ To understand this lets jump straight into our sample app.
 
 I have added a third edit option to our sample:
 
-[<img class="aligncenter size-full wp-image-856" title="knockout-edit" src="http://ivanz.com/wp-content/uploads/2011/06/knockout-edit.png" alt="" width="304" height="223" />][6]
+[<img class="aligncenter size-full wp-image-856" title="knockout-edit" src="{{ site.url }}/wp-content/uploads/2011/06/knockout-edit.png" alt="" width="304" height="223" />][6]
 
 which surprise, surprise looks exactly the same as in the previous iteration. Apart from one extra feature &#8211; the favourite movies counter I&#8217;ve added to give you a hint of the power of Knockout JS:
 
-[<img class="aligncenter size-full wp-image-857" title="knockout-edit-screen" src="http://ivanz.com/wp-content/uploads/2011/06/knockout-edit-screen.png" alt="" width="571" height="383" />][7]
+[<img class="aligncenter size-full wp-image-857" title="knockout-edit-screen" src="{{ site.url }}/wp-content/uploads/2011/06/knockout-edit-screen.png" alt="" width="571" height="383" />][7]
 
 #### View and ViewModel
 
@@ -264,7 +264,7 @@ Pretty simple action, which just validates the Model using our validation rules/
 
 We can now persist our view model and also use our server-side model validation to prevent the client from doing nasty things:
 
-[<img src="http://ivanz.com/wp-content/uploads/2011/06/knockout-edit-server-validation.png" alt="" title="knockout-edit-server-validation" width="558" height="207" class="aligncenter size-full wp-image-905" />][10]
+[<img src="{{ site.url }}/wp-content/uploads/2011/06/knockout-edit-server-validation.png" alt="" title="knockout-edit-server-validation" width="558" height="207" class="aligncenter size-full wp-image-905" />][10]
 
 We are not done just yet. Because we no longer use the ASP.NET html helpers we no longer pull the server-side validation error messages and are currently left with the generic &#8220;Something went wrong.&#8221; error message. This isn&#8217;t exactly nice nor user friendly. We can solve this by the use of client-side JavaScript based validation. Remember that we should never ever rely solely on the client-side (and we don&#8217;t in our case).
 
@@ -319,7 +319,7 @@ Finally let&#8217;s plug-in jQuery Validation. To do that we will remove the pre
 
 Which gives us nice per-field validation error messages as we type:
 
-[<img src="http://ivanz.com/wp-content/uploads/2011/06/knockout-edit-client-validation.png" alt="" title="knockout-edit-client-validation" width="676" height="276" class="aligncenter size-full wp-image-909" />][12]
+[<img src="{{ site.url }}/wp-content/uploads/2011/06/knockout-edit-client-validation.png" alt="" title="knockout-edit-client-validation" width="676" height="276" class="aligncenter size-full wp-image-909" />][12]
 
 #### Wrapping up
 
@@ -333,17 +333,17 @@ If you have a simple collection editing scenario and you are heavily reliant on 
 
 Thank you for reading the series. I will appreciate your feedback in the comments!
 
- [1]: http://ivanz.com/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/ "Editing Variable Length Reorderable Collections in ASP.NET MVC – Part 1"
- [2]: http://ivanz.com/2011/06/20/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-2/ "Editing Variable Length Reorderable Collections in ASP.NET MVC – Part 2"
+ [1]: {{ site.url }}/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/ "Editing Variable Length Reorderable Collections in ASP.NET MVC – Part 1"
+ [2]: {{ site.url }}/2011/06/20/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-2/ "Editing Variable Length Reorderable Collections in ASP.NET MVC – Part 2"
  [3]: http://knockoutjs.com/
  [4]: http://github.com/ivanz/ASP.NET-MVC-Collection-Editing
  [5]: http://blog.stevensanderson.com/2010/07/05/introducing-knockout-a-ui-library-for-javascript/
- [6]: http://ivanz.com/wp-content/uploads/2011/06/knockout-edit.png
- [7]: http://ivanz.com/wp-content/uploads/2011/06/knockout-edit-screen.png
+ [6]: {{ site.url }}/wp-content/uploads/2011/06/knockout-edit.png
+ [7]: {{ site.url }}/wp-content/uploads/2011/06/knockout-edit-screen.png
  [8]: https://github.com/ivanz/ASP.NET-MVC-Collection-Editing/blob/master/CollectionEditing/Infrastructure/JsonHtmlExtensions.cs
  [9]: https://github.com/ivanz/knockout.jQueryUI-sortable.js/blob/master/knockout.jQueryUI-sortable.js
- [10]: http://ivanz.com/wp-content/uploads/2011/06/knockout-edit-server-validation.png
+ [10]: {{ site.url }}/wp-content/uploads/2011/06/knockout-edit-server-validation.png
  [11]: http://docs.jquery.com/Plugins/validation
- [12]: http://ivanz.com/wp-content/uploads/2011/06/knockout-edit-client-validation.png
- [13]: http://ivanz.com/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/
- [14]: http://ivanz.com/2011/06/20/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-2/
+ [12]: {{ site.url }}/wp-content/uploads/2011/06/knockout-edit-client-validation.png
+ [13]: {{ site.url }}/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/
+ [14]: {{ site.url }}/2011/06/20/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-2/

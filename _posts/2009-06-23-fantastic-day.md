@@ -25,7 +25,7 @@ I really wanted to take some photos so I grabbed my camera before going to the p
 Here is the only one that I liked. It&#8217;s nothing special but I like the dark green.
 
 <div id="attachment_586" style="width: 235px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2009/06/tree.jpg"><img class="size-medium wp-image-586" title="Trees in Pearson Park in Hull" src="http://ivanz.com/wp-content/uploads/2009/06/tree-225x300.jpg" alt="Trees in Pearson Park in Hull" width="225" height="300" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2009/06/tree.jpg"><img class="size-medium wp-image-586" title="Trees in Pearson Park in Hull" src="{{ site.url }}/wp-content/uploads/2009/06/tree-225x300.jpg" alt="Trees in Pearson Park in Hull" width="225" height="300" /></a>
   
   <p class="wp-caption-text">
     Trees in Pearson Park in Hull

@@ -20,7 +20,7 @@ Hey! I just wanted to tell the world a few things before jumping in my bed (\*ne
 
   1. I have committed the Design-Time code in the class library (Mono&#8217;s).
   2. I have added a mwf-designer module in trunk.
-  3. I have implemented a few Editors and stubbed a few more for the PropertyGrid to crash less often. <img src="http://ivanz.com/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  3. I have implemented a few Editors and stubbed a few more for the PropertyGrid to crash less often. <img src="{{ site.url }}/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
   4. File -> New and Close menus do actually work now. And no, the delete button doesn&#8217;t work yet for those of you who may ask.
   5. We now have a wiki page with more information on Mono&#8217;s web site.
 

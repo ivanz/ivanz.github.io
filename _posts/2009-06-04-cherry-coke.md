@@ -19,7 +19,7 @@ tags:
   - Photos
 ---
 <div id="attachment_574" style="width: 310px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-574" href="http://ivanz.com/wp-content/uploads/2009/06/img_0271.jpg"><img class="size-medium wp-image-574" title="Cherry Coke" src="http://ivanz.com/wp-content/uploads/2009/06/img_0271-300x225.jpg" alt="Cherry Coke" width="300" height="225" /></a>
+  <a rel="attachment wp-att-574" href="{{ site.url }}/wp-content/uploads/2009/06/img_0271.jpg"><img class="size-medium wp-image-574" title="Cherry Coke" src="{{ site.url }}/wp-content/uploads/2009/06/img_0271-300x225.jpg" alt="Cherry Coke" width="300" height="225" /></a>
   
   <p class="wp-caption-text">
     Cherry Coke

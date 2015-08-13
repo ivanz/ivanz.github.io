@@ -601,4 +601,4 @@ namespace inZ.Widgets
 </contact>
 
  [1]: http://banshee-project.org
- [2]: http://ivanz.com/projects/banshee-xine
+ [2]: {{ site.url }}/projects/banshee-xine

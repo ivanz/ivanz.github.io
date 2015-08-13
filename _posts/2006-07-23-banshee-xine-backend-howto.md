@@ -45,5 +45,5 @@ Setting the default media engine in Banshee can be done by using gconftool:
     gconftool-2 --set /apps/Banshee/PlayerEngine "engine-name" --type string
 
  [1]: http://www.banshee-project.org
- [2]: http://ivanz.com/projects/banshee/
+ [2]: {{ site.url }}/projects/banshee/
  [3]: http://files.ivanz.com/projects/banshee/banshee-engine-xine/XineEngine.dll

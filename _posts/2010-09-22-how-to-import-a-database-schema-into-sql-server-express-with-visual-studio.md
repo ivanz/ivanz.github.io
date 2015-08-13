@@ -25,8 +25,8 @@ Today I needed to import my SQL Server schema into a SQL Server Express instance
   3. In the &#8220;Data&#8221; menu you will have to &#8220;Connect&#8221; and then Validate and Execute SQL.
   4. Done.
 
-[<img class="aligncenter size-full wp-image-724" title="connect" src="http://ivanz.com/wp-content/uploads/2010/09/connect.png" alt="" width="694" height="335" />][1]
+[<img class="aligncenter size-full wp-image-724" title="connect" src="{{ site.url }}/wp-content/uploads/2010/09/connect.png" alt="" width="694" height="335" />][1]
 
 I bet the same can be done with <a href="http://msdn.microsoft.com/en-us/library/ms365247.aspx" target="_blank">SQL Server Management Studio Express</a> but I have yet to install it.
 
- [1]: http://ivanz.com/wp-content/uploads/2010/09/connect.png
+ [1]: {{ site.url }}/wp-content/uploads/2010/09/connect.png

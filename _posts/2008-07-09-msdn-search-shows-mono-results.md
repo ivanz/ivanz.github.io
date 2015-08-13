@@ -19,7 +19,7 @@ categories:
   * Today I accidentaly MSDN searched for *Win32SetClipboardData* (our P/Invoke method name in Mono WinForms) instead of *SetClipboardData* and guess what&#8230; I ended up with 5 [Mono][1] results in front of me. I found it amusing considering the fact that this was MSDN Search after all. A screenshot in case they &#8220;fix&#8221; it. (Click bottom-left &#8220;*Full Size*&#8221; after the pop-up shows)
 
 <p style="text-align: center;">
-  <a href="http://ivanz.com/wp-content/uploads/2008/07/msdn-search-mono.png"><img class="size-medium wp-image-175" title="MSDN Search shows Mono results" src="http://ivanz.com/wp-content/uploads/2008/07/msdn-search-mono-300x292.png" alt="MSDN Search shows Mono results" width="300" height="292" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2008/07/msdn-search-mono.png"><img class="size-medium wp-image-175" title="MSDN Search shows Mono results" src="{{ site.url }}/wp-content/uploads/2008/07/msdn-search-mono-300x292.png" alt="MSDN Search shows Mono results" width="300" height="292" /></a>
 </p>
 
   * You might think I have a lot of tabs opened in Firefox, but I should mention that I closed twice more prior to taking the screenshot. BTW, **thank you**, [Tab Mix Plus][2] guys, for the multi-line tab bar.

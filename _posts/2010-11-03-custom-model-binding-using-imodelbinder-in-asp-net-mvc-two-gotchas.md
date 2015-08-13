@@ -101,4 +101,4 @@ The two important gotchas are:
 
 P.S:  If I have to be pedantic and the code path is not critical I won&#8217;t use strings in the model binder to refer to the Quantity properties. Instead I would use something like what I&#8217;ve written about in will use the method described in [How to avoid passing property names as strings using C# 3.0 Expression Trees][1] .
 
- [1]: http://ivanz.com/2009/12/04/how-to-avoid-passing-property-names-as-strings-using-c-3-0-expression-trees/
+ [1]: {{ site.url }}/2009/12/04/how-to-avoid-passing-property-names-as-strings-using-c-3-0-expression-trees/

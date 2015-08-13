@@ -16,7 +16,7 @@ dsq_thread_id:
 categories:
   - Coding
 ---
-I&#8217;ve just found that the free software song (http://www.gnu.org/music/free-software-song.html) is based on our Bulgarian &#8220;Sadi Moma&#8221; melody. I find this cool! <img src="http://ivanz.com/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+I&#8217;ve just found that the free software song (http://www.gnu.org/music/free-software-song.html) is based on our Bulgarian &#8220;Sadi Moma&#8221; melody. I find this cool! <img src="{{ site.url }}/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 > Join us now and share the software;  
 > You&#8217;ll be free, hackers, you&#8217;ll be free.  

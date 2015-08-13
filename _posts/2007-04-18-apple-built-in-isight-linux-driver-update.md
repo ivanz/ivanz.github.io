@@ -20,4 +20,4 @@ I have updated the [iSight patch and bundle][1] to revision 94 of uvcvideo with 
 
 Update: I had taken out three & by accident thus breaking compilation on newer kernels. Fixed now. Thanks to D. Siegel for reporting.
 
- [1]: http://ivanz.com/projects/linux-kernel/
+ [1]: {{ site.url }}/projects/linux-kernel/

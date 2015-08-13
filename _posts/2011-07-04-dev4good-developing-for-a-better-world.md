@@ -28,7 +28,7 @@ tags:
 [  
 ][1]Last weekend (2-3 July) I attended the first ever [dev4good][2] &#8211; a charity hackathon where developers try to solve charity problems in a weekend. It took place in Hammersmith, London in a amazing venue on the riverside:
 
-[<img class="aligncenter size-large wp-image-945" title="IMG_1305" src="http://ivanz.com/wp-content/uploads/2011/07/IMG_1305-1024x764.jpg" alt="" width="620" height="462" />][3]
+[<img class="aligncenter size-large wp-image-945" title="IMG_1305" src="{{ site.url }}/wp-content/uploads/2011/07/IMG_1305-1024x764.jpg" alt="" width="620" height="462" />][3]
 
 Three charities came to use with the following problems:
 
@@ -61,11 +61,11 @@ Basically we wanted to create a proof of concept system that:
 
 At the end it looked like this (test data, which probably doesn&#8217;t illustrate perfectly the usage):
 
-[<img class="aligncenter" title="charity portal screenshot" src="http://ivanz.com/wp-content/uploads/2011/07/charity-portal-screenshot.png" alt="" width="1003" height="841" />][1]  
+[<img class="aligncenter" title="charity portal screenshot" src="{{ site.url }}/wp-content/uploads/2011/07/charity-portal-screenshot.png" alt="" width="1003" height="841" />][1]  
 My team worked great together. We were able to quickly split the work so that everyone has something of interest to do. It was very exciting to see how we are making progress during our scrum stand ups:  
-[<img class="aligncenter size-large wp-image-950" title="WP_000815" src="http://ivanz.com/wp-content/uploads/2011/07/WP_000815-1024x768.jpg" alt="" width="620" height="465" />][7]  
+[<img class="aligncenter size-large wp-image-950" title="WP_000815" src="{{ site.url }}/wp-content/uploads/2011/07/WP_000815-1024x768.jpg" alt="" width="620" height="465" />][7]  
 At the start of the event we decided that we are going to use Git for source control and GitHub for hosting. Apart from me only one other person had used Git before, but I was happy to help out each of the guys and keep them going during the event. As you can see from the below GitHub commits timeline we were quite effective in working in parallel:  
-[<img class="aligncenter size-large wp-image-951" title="Weekend Timeline" src="http://ivanz.com/wp-content/uploads/2011/07/Weekend-Timeline-1024x105.png" alt="" width="620" height="63" />][8]  
+[<img class="aligncenter size-large wp-image-951" title="Weekend Timeline" src="{{ site.url }}/wp-content/uploads/2011/07/Weekend-Timeline-1024x105.png" alt="" width="620" height="63" />][8]  
 I think 99.9% of us were running Windows and using Bash or Cmd was absolutely not an option for the non-Gitters who had mainly experience with TFS or SVN. Most new Gitters used Tortoise Git, but that was still confusing as it required understanding of how everything works. Only later I learned about SmartGit and in retrospect I think we should have used that instead.
 
 As you&#8217;ll hear on the video initially we planned to use Orchard CMS, but after some research and poking around I was personally disappointed to find out how over-complex and over-engineered Orchard is. So we dumped it and went for plain old ASP.NET MVC 3 and non-POCO Entity Framework, which worked out quite well &#8211; after all it was just meant to be proof of concept.
@@ -73,11 +73,11 @@ As you&#8217;ll hear on the video initially we planned to use Orchard CMS, but a
 All in all I had great fun during the weekend. I also met some great people, who I am looking forward to seeing and work with again in the future &#8211; probably during GiveCamp UK in October!
 
 At the end of the weekend it turned out that most people voted for me as the most supportive and helpful developer during the weekend, so I won the grand prize &#8211; a Kinect. I wasn&#8217;t expecting this at all and very grateful to everyone and very happy that I was able to help people out. Thanks guys!  
-[<img class="aligncenter size-medium wp-image-953" title="Kinect Prize" src="http://ivanz.com/wp-content/uploads/2011/07/Kinect-Prize-300x224.jpg" alt="" width="300" height="224" />][9]And here is an end of event photo of team dev4good:  
-[<img class="aligncenter size-large wp-image-954" title="WP_000825" src="http://ivanz.com/wp-content/uploads/2011/07/WP_000825-1024x768.jpg" alt="" width="620" height="465" />][10]Great job guys!
+[<img class="aligncenter size-medium wp-image-953" title="Kinect Prize" src="{{ site.url }}/wp-content/uploads/2011/07/Kinect-Prize-300x224.jpg" alt="" width="300" height="224" />][9]And here is an end of event photo of team dev4good:  
+[<img class="aligncenter size-large wp-image-954" title="WP_000825" src="{{ site.url }}/wp-content/uploads/2011/07/WP_000825-1024x768.jpg" alt="" width="620" height="465" />][10]Great job guys!
 
 Also big thanks to our sponsors:  
-[<img class="aligncenter size-medium wp-image-955" title="sponsors" src="http://ivanz.com/wp-content/uploads/2011/07/sponsors-300x179.png" alt="" width="300" height="179" />][11]
+[<img class="aligncenter size-medium wp-image-955" title="sponsors" src="{{ site.url }}/wp-content/uploads/2011/07/sponsors-300x179.png" alt="" width="300" height="179" />][11]
 
 ### What&#8217;s next?
 
@@ -85,14 +85,14 @@ We are in the process of moving and merging the team repositories in a central o
 
 Next also is GiveCamp UK! I am also tempted to go to Startup Weekend Lonodon, but I&#8217;ll see about that.
 
- [1]: http://ivanz.com/wp-content/uploads/2011/07/charity-portal-screenshot.png
+ [1]: {{ site.url }}/wp-content/uploads/2011/07/charity-portal-screenshot.png
  [2]: http://dev4good.net
- [3]: http://ivanz.com/wp-content/uploads/2011/07/IMG_1305.jpg
+ [3]: {{ site.url }}/wp-content/uploads/2011/07/IMG_1305.jpg
  [4]: www.hopeandplay.org
  [5]: www.ministryofstories.org
  [6]: www.craftanddesigncouncil.org.uk
- [7]: http://ivanz.com/wp-content/uploads/2011/07/WP_000815.jpg
- [8]: http://ivanz.com/wp-content/uploads/2011/07/Weekend-Timeline.png
- [9]: http://ivanz.com/wp-content/uploads/2011/07/Kinect-Prize.jpeg
- [10]: http://ivanz.com/wp-content/uploads/2011/07/WP_000825.jpg
- [11]: http://ivanz.com/wp-content/uploads/2011/07/sponsors.png
+ [7]: {{ site.url }}/wp-content/uploads/2011/07/WP_000815.jpg
+ [8]: {{ site.url }}/wp-content/uploads/2011/07/Weekend-Timeline.png
+ [9]: {{ site.url }}/wp-content/uploads/2011/07/Kinect-Prize.jpeg
+ [10]: {{ site.url }}/wp-content/uploads/2011/07/WP_000825.jpg
+ [11]: {{ site.url }}/wp-content/uploads/2011/07/sponsors.png

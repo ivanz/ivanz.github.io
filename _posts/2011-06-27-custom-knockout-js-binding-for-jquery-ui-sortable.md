@@ -39,4 +39,4 @@ Live example (if you are reading this in a feed reader you will need to open the
 
 <!-- iframe plugin v.3.0 wordpress.org/plugins/iframe/ -->
 
- [1]: http://ivanz.com/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/
+ [1]: {{ site.url }}/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/

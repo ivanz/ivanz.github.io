@@ -21,13 +21,13 @@ tags:
 ---
 Here are step instruction on how to replace the Windows login password prompt with a PIN code, especially on those yummy new Windows tablets (I am looking at you Surface Pro 3):
 
-[<img class="aligncenter wp-image-1039 " src="http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-32-42.png" alt="2014-11-21_21-32-42" width="455" height="284" />][1][<img class="aligncenter  wp-image-1042" src="http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-33-38.png" alt="2014-11-21_21-33-38" width="371" height="267" />][2]  [<img class="aligncenter wp-image-1040 " src="http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-33-58.png" alt="2014-11-21_21-33-58" width="467" height="654" />][3][<img class="aligncenter wp-image-1041 size-full" src="http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-34-33.png" alt="2014-11-21_21-34-33" width="1064" height="417" />][4]
+[<img class="aligncenter wp-image-1039 " src="{{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-32-42.png" alt="2014-11-21_21-32-42" width="455" height="284" />][1][<img class="aligncenter  wp-image-1042" src="{{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-33-38.png" alt="2014-11-21_21-33-38" width="371" height="267" />][2]  [<img class="aligncenter wp-image-1040 " src="{{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-33-58.png" alt="2014-11-21_21-33-58" width="467" height="654" />][3][<img class="aligncenter wp-image-1041 size-full" src="{{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-34-33.png" alt="2014-11-21_21-34-33" width="1064" height="417" />][4]
 
 &nbsp;
 
 &nbsp;
 
- [1]: http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-32-42.png
- [2]: http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-33-38.png
- [3]: http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-33-58.png
- [4]: http://ivanz.com/wp-content/uploads/2014/11/2014-11-21_21-34-33.png
+ [1]: {{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-32-42.png
+ [2]: {{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-33-38.png
+ [3]: {{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-33-58.png
+ [4]: {{ site.url }}/wp-content/uploads/2014/11/2014-11-21_21-34-33.png

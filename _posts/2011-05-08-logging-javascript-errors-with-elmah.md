@@ -67,5 +67,5 @@ namespace Triply.Controllers
 
 Done!
 
- [1]: http://ivanz.com/2011/05/08/asp-net-mvc-magical-error-logging-with-elmah/ "ASP.NET MVC Magical Error Logging with ELMAH"
+ [1]: {{ site.url }}/2011/05/08/asp-net-mvc-magical-error-logging-with-elmah/ "ASP.NET MVC Magical Error Logging with ELMAH"
  [2]: http://code.google.com/p/elmah/

@@ -16,7 +16,7 @@ dsq_thread_id:
 categories:
   - Diary
 ---
-[<img class="size-full wp-image-590 alignright" title="natwest-logo" src="http://ivanz.com/wp-content/uploads/2009/06/natwest-logo.gif" alt="natwest-logo" width="168" height="45" />][1] After being a happy customer of [NatWest][2] (UK bank) for 4  years I think I&#8217;ve finally had enough.
+[<img class="size-full wp-image-590 alignright" title="natwest-logo" src="{{ site.url }}/wp-content/uploads/2009/06/natwest-logo.gif" alt="natwest-logo" width="168" height="45" />][1] After being a happy customer of [NatWest][2] (UK bank) for 4  years I think I&#8217;ve finally had enough.
 
 Years ago when I came to the UK to do my BSc degree and Bulgaria was not yet a member of the EU it was a major pain to open a UK bank account. I talked to staff from Barclays, HSBC and NatWest. From all those 3 major banks only NatWest had reasonable conditions all the others had crazy stuff like depositing a **lot **of money and not being able to use them for 2 years or so. Today that&#8217;s no longer the case.
 
@@ -30,5 +30,5 @@ I&#8217;ve had good customer experience and they&#8217;ve always been polite and
 
 Screw you NatWest! I am switching banks the moment I get some free time&#8230;
 
- [1]: http://ivanz.com/wp-content/uploads/2009/06/natwest-logo.gif
+ [1]: {{ site.url }}/wp-content/uploads/2009/06/natwest-logo.gif
  [2]: http://natwest.com

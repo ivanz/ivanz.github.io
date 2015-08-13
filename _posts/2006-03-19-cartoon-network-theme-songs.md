@@ -57,10 +57,10 @@ Remind me of my childhood&#8230; kinda..
 [Power puff girls theme][6]  
 [Cow and Chicken][7]
 
- [1]: http://ivanz.com/files/blog/cartoon%20network/Disney%20-%20hakuna%20matata.mp3
- [2]: http://ivanz.com/files/blog/cartoon%20network/cartoon%20network%20-%20Courage%20The%20Cowardly%20Dog%20Theme.mp3
- [3]: http://ivanz.com/files/blog/cartoon%20network/cartoon%20network%20-%20dexter's%20laboratory.mp3
- [4]: http://ivanz.com/files/blog/cartoon%20network/cartoon%20network%20-%20ed,%20edd%20n%20eddy.mp3
- [5]: http://ivanz.com/files/blog/cartoon%20network/cartoon%20network%20-%20i%20am%20weasel.mp3
- [6]: http://ivanz.com/files/blog/cartoon%20network/cartoon%20network%20-%20power%20puff%20girls%20theme.mp3
- [7]: http://ivanz.com/files/blog/cartoon%20network/cow-chicken.mp3
+ [1]: {{ site.url }}/files/blog/cartoon%20network/Disney%20-%20hakuna%20matata.mp3
+ [2]: {{ site.url }}/files/blog/cartoon%20network/cartoon%20network%20-%20Courage%20The%20Cowardly%20Dog%20Theme.mp3
+ [3]: {{ site.url }}/files/blog/cartoon%20network/cartoon%20network%20-%20dexter's%20laboratory.mp3
+ [4]: {{ site.url }}/files/blog/cartoon%20network/cartoon%20network%20-%20ed,%20edd%20n%20eddy.mp3
+ [5]: {{ site.url }}/files/blog/cartoon%20network/cartoon%20network%20-%20i%20am%20weasel.mp3
+ [6]: {{ site.url }}/files/blog/cartoon%20network/cartoon%20network%20-%20power%20puff%20girls%20theme.mp3
+ [7]: {{ site.url }}/files/blog/cartoon%20network/cow-chicken.mp3

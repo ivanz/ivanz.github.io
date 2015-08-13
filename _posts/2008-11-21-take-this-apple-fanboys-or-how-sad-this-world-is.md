@@ -27,7 +27,7 @@ categories:
 
 <div class="mceTemp mceIEcenter" style="text-align: left;">
   <div id="attachment_243" style="width: 510px" class="wp-caption aligncenter">
-    <a href="http://ivanz.com/wp-content/uploads/2008/11/itunesscreen.jpg"><img class="size-full wp-image-243" title="Apple iTunes External Display Copyright Protection" src="http://ivanz.com/wp-content/uploads/2008/11/itunesscreen.jpg" alt="Apple iTunes External Display Copyright Protection" width="500" height="343" /></a>
+    <a href="{{ site.url }}/wp-content/uploads/2008/11/itunesscreen.jpg"><img class="size-full wp-image-243" title="Apple iTunes External Display Copyright Protection" src="{{ site.url }}/wp-content/uploads/2008/11/itunesscreen.jpg" alt="Apple iTunes External Display Copyright Protection" width="500" height="343" /></a>
     
     <p class="wp-caption-text">
       Apple iTunes External Display Copyright Protection

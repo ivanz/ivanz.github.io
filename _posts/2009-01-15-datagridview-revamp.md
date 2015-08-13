@@ -31,7 +31,7 @@ Be nice and test your applications with Subversion HEAD or Mono 2.4 branch once 
 Ciao!
 
 <div id="attachment_269" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2009/01/screenshot-student-administration-system.png"><img class="size-medium wp-image-269" title="screenshot-student-administration-system" src="http://ivanz.com/wp-content/uploads/2009/01/screenshot-student-administration-system-300x270.png" alt="DataGridView SVN HEAD caught in action" width="300" height="270" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2009/01/screenshot-student-administration-system.png"><img class="size-medium wp-image-269" title="screenshot-student-administration-system" src="{{ site.url }}/wp-content/uploads/2009/01/screenshot-student-administration-system-300x270.png" alt="DataGridView SVN HEAD caught in action" width="300" height="270" /></a>
   
   <p class="wp-caption-text">
     DataGridView SVN HEAD caught in action

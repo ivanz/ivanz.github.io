@@ -102,7 +102,7 @@ It works fine and can be done as follows. Example sets 2gb swap.
 
 <span style="text-decoration: underline;">Linux Built-in iSight WebCam Driver</span>
 
-<a href="http://ivanz.com/projects/linux-kernel/" target="_blank">Here</a> or possibly supplied by your distribution of choice as uvcvideo patched with my isight patch.
+<a href="{{ site.url }}/projects/linux-kernel/" target="_blank">Here</a> or possibly supplied by your distribution of choice as uvcvideo patched with my isight patch.
 
 <span style="text-decoration: underline;">Apple Mac Windows Driver CD iso</span>
 

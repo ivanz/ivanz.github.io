@@ -19,7 +19,7 @@ categories:
 Was listening to a couple of Fullmoon Trance from my collection when I noticed it&#8217;s full moon &#8211; a pretty one.
 
 <div id="attachment_679" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2009/09/fullmoon.jpg"><img class="size-medium wp-image-679" title="Full moon" src="http://ivanz.com/wp-content/uploads/2009/09/fullmoon-300x225.jpg" alt="Full moon" width="300" height="225" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2009/09/fullmoon.jpg"><img class="size-medium wp-image-679" title="Full moon" src="{{ site.url }}/wp-content/uploads/2009/09/fullmoon-300x225.jpg" alt="Full moon" width="300" height="225" /></a>
   
   <p class="wp-caption-text">
     Full moon

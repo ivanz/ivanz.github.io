@@ -21,7 +21,7 @@ tags:
   - Funny
 ---
 <div id="attachment_308" style="width: 341px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-308" href="http://ivanz.com/wp-content/uploads/2009/01/gmail-crap.png"><img class="size-full wp-image-308" title="Crap in Gmail Smileys" src="http://ivanz.com/wp-content/uploads/2009/01/gmail-crap.png" alt="Crap in Gmail Smileys" width="331" height="229" /></a>
+  <a rel="attachment wp-att-308" href="{{ site.url }}/wp-content/uploads/2009/01/gmail-crap.png"><img class="size-full wp-image-308" title="Crap in Gmail Smileys" src="{{ site.url }}/wp-content/uploads/2009/01/gmail-crap.png" alt="Crap in Gmail Smileys" width="331" height="229" /></a>
   
   <p class="wp-caption-text">
     Crap in Gmail Smileys

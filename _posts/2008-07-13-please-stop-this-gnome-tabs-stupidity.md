@@ -23,7 +23,7 @@ I really hope this GNOME 3.0 Tabs &#8220;mania&#8221; is a prank, because it jus
 Here is a mock-up screenshot of how GNOME 3 Release Name &#8220;Tabs&#8221; could look like if this insanity becomes reality. (Click &#8220;*Full Size*&#8221; bottom-left in the popup for a good resolution)
 
 <p style="text-align: center;">
-  <a href="http://ivanz.com/wp-content/uploads/2008/07/gnome3-tabs.png"><img class="size-medium wp-image-187" title="gnome3-tabs" src="http://ivanz.com/wp-content/uploads/2008/07/gnome3-tabs-300x187.png" alt="" width="300" height="187" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2008/07/gnome3-tabs.png"><img class="size-medium wp-image-187" title="gnome3-tabs" src="{{ site.url }}/wp-content/uploads/2008/07/gnome3-tabs-300x187.png" alt="" width="300" height="187" /></a>
 </p>
 
   * Why the hell would I want to have Tabs in my movie player? Am I going to watch two things at the same time?

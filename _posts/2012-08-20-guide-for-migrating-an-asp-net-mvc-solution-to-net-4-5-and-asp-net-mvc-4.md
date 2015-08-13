@@ -52,5 +52,5 @@ To be honest I haven&#8217;t seen noticeable performance improvements with the
 
  [1]: http://www.asp.net/whitepapers/mvc4-release-notes#_Toc303253806
  [2]: http://msdn.microsoft.com/en-us/library/hh429726(v=vs.108)
- [3]: http://ivanz.com/2012/08/17/heads-up-on-a-hidden-breaking-change-in-asp-net-mvc-4/ "Heads up on a hidden breaking change in ASP.NET MVC 4"
+ [3]: {{ site.url }}/2012/08/17/heads-up-on-a-hidden-breaking-change-in-asp-net-mvc-4/ "Heads up on a hidden breaking change in ASP.NET MVC 4"
  [4]: http://stackoverflow.com/questions/12006991/retargeting-solution-from-net-4-0-to-4-5-how-to-retarget-the-nuget-packages

@@ -22,28 +22,28 @@ tags:
   - PicasaWeb
   - WinForms
 ---
-I have just released version 0.2 of my PicasaWeb Uploader tool. The new things are &#8220;*Send To*&#8221; right-click integration on Windows and username/password saving. Get it from (and also for more information): [http://ivanz.com/projects/picasauploader][1].
+I have just released version 0.2 of my PicasaWeb Uploader tool. The new things are &#8220;*Send To*&#8221; right-click integration on Windows and username/password saving. Get it from (and also for more information): [{{ site.url }}/projects/picasauploader][1].
 
 <div id='gallery-7' class='gallery galleryid-558 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://ivanz.com/wp-content/uploads/2009/05/albums-screenshot1.png'><img width="150" height="150" src="http://ivanz.com/wp-content/uploads/2009/05/albums-screenshot1-150x150.png" class="attachment-thumbnail" alt="albums-screenshot1" /></a>
+      <a href='{{ site.url }}/wp-content/uploads/2009/05/albums-screenshot1.png'><img width="150" height="150" src="{{ site.url }}/wp-content/uploads/2009/05/albums-screenshot1-150x150.png" class="attachment-thumbnail" alt="albums-screenshot1" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://ivanz.com/wp-content/uploads/2009/05/photos-screenshot1.png'><img width="150" height="150" src="http://ivanz.com/wp-content/uploads/2009/05/photos-screenshot1-150x150.png" class="attachment-thumbnail" alt="photos-screenshot1" /></a>
+      <a href='{{ site.url }}/wp-content/uploads/2009/05/photos-screenshot1.png'><img width="150" height="150" src="{{ site.url }}/wp-content/uploads/2009/05/photos-screenshot1-150x150.png" class="attachment-thumbnail" alt="photos-screenshot1" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='http://ivanz.com/wp-content/uploads/2009/05/send-to-integration.png'><img width="150" height="150" src="http://ivanz.com/wp-content/uploads/2009/05/send-to-integration-150x150.png" class="attachment-thumbnail" alt="send-to-integration" /></a>
+      <a href='{{ site.url }}/wp-content/uploads/2009/05/send-to-integration.png'><img width="150" height="150" src="{{ site.url }}/wp-content/uploads/2009/05/send-to-integration-150x150.png" class="attachment-thumbnail" alt="send-to-integration" /></a>
     </dt>
   </dl>
   
   <br style="clear: both" />
 </div>
 
- [1]: http://ivanz.com/projects/picasauploader/
+ [1]: {{ site.url }}/projects/picasauploader/

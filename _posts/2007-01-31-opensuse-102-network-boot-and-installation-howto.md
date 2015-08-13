@@ -135,7 +135,7 @@ and then the system should boot.
 
 **References and More Information **
 
-  * <a href="http://ivanz.com/wp-admin/post.php#%20ftp://download.intel.com/design/archives/wfm/downloads/pxespec.pdf" target="_blank">ftp://download.intel.com/design/archives/wfm/downloads/pxespec.pdf</a>
+  * <a href="{{ site.url }}/wp-admin/post.php#%20ftp://download.intel.com/design/archives/wfm/downloads/pxespec.pdf" target="_blank">ftp://download.intel.com/design/archives/wfm/downloads/pxespec.pdf</a>
   * <a href="http://en.wikipedia.org/wiki/Tftp" target="_blank">http://en.wikipedia.org/wiki/Tftp</a>
   * <a href="http://en.wikipedia.org/wiki/Network_File_System_%28Sun%29" target="_blank">http://en.wikipedia.org/wiki/Network_File_System_%28Sun%29</a>
   * <a href="http://en.opensuse.org/SDB:Network_Installation_of_SuSE_Linux_via_PXE_Boot" target="_blank">http://en.opensuse.org/SDB:Network_Installation_of_SuSE_Linux_via_PXE_Boot</a>

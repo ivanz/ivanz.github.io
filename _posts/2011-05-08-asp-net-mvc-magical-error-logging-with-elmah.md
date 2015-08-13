@@ -26,7 +26,7 @@ If you aren&#8217;t using ELMAH (Error Logging Modules and Handlers) you should
 Some screenshots:
 
 <div style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2011/05/elmah-log-1.png"><img title="elmah-log-1" src="http://ivanz.com/wp-content/uploads/2011/05/elmah-log-1-300x43.png" alt="" width="300" height="43" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2011/05/elmah-log-1.png"><img title="elmah-log-1" src="{{ site.url }}/wp-content/uploads/2011/05/elmah-log-1-300x43.png" alt="" width="300" height="43" /></a>
   
   <p class="wp-caption-text">
     List of Errors using the Web Interface
@@ -34,7 +34,7 @@ Some screenshots:
 </div>
 
 <div style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2011/05/elmah-log-2.png"><img title="elmah-log-2" src="http://ivanz.com/wp-content/uploads/2011/05/elmah-log-2-300x186.png" alt="" width="300" height="186" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2011/05/elmah-log-2.png"><img title="elmah-log-2" src="{{ site.url }}/wp-content/uploads/2011/05/elmah-log-2-300x186.png" alt="" width="300" height="186" /></a>
   
   <p class="wp-caption-text">
     Error Details in the web interface
@@ -132,4 +132,4 @@ That&#8217;s it. Now you get super cool logging (and remember &#8211; RSS feed!)
 [  
 ][1]
 
- [1]: http://ivanz.com/wp-content/uploads/2011/05/elmah-log-1.png
+ [1]: {{ site.url }}/wp-content/uploads/2011/05/elmah-log-1.png

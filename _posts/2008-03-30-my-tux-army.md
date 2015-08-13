@@ -19,5 +19,5 @@ categories:
 My Tux army arrived on Friday. Woah!
 
 <p style="text-align: center;">
-  <a href="http://ivanz.com/wp-content/uploads/2008/03/30032007315.jpg"><img class="size-medium wp-image-152" title="My Tux army" src="http://ivanz.com/wp-content/uploads/2008/03/30032007315-300x225.jpg" alt="My Tux Army" width="300" height="225" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2008/03/30032007315.jpg"><img class="size-medium wp-image-152" title="My Tux army" src="{{ site.url }}/wp-content/uploads/2008/03/30032007315-300x225.jpg" alt="My Tux Army" width="300" height="225" /></a>
 </p>

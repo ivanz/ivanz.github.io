@@ -21,4 +21,4 @@ tags:
 ---
 I have published my little tool that extracts just the Eclipse colour theme preferences out of the Eclipse exported preferences [here][1]. Usage is pretty simple &#8211; point it to an Eclipse preferences file and it will spit out the theme, which you can the import into your workspace without importing any other settings.
 
- [1]: http://ivanz.com/projects/useful-scripts/
+ [1]: {{ site.url }}/projects/useful-scripts/

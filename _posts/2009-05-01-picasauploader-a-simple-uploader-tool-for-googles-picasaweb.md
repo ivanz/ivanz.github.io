@@ -34,7 +34,7 @@ The project&#8217;s web page and downloads are here &#8211; [PicasaUploader on t
 <div id='gallery-6' class='gallery galleryid-515 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://ivanz.com/wp-content/uploads/2009/05/albums-screenshot.png'><img width="150" height="150" src="http://ivanz.com/wp-content/uploads/2009/05/albums-screenshot-150x150.png" class="attachment-thumbnail" alt="Album Browser and Album Creation" aria-describedby="gallery-6-516" /></a>
+      <a href='{{ site.url }}/wp-content/uploads/2009/05/albums-screenshot.png'><img width="150" height="150" src="{{ site.url }}/wp-content/uploads/2009/05/albums-screenshot-150x150.png" class="attachment-thumbnail" alt="Album Browser and Album Creation" aria-describedby="gallery-6-516" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption' id='gallery-6-516'>
@@ -44,7 +44,7 @@ The project&#8217;s web page and downloads are here &#8211; [PicasaUploader on t
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://ivanz.com/wp-content/uploads/2009/05/photos-screenshot.png'><img width="150" height="150" src="http://ivanz.com/wp-content/uploads/2009/05/photos-screenshot-150x150.png" class="attachment-thumbnail" alt="Uploading Photos and Duplicate Photos" aria-describedby="gallery-6-518" /></a>
+      <a href='{{ site.url }}/wp-content/uploads/2009/05/photos-screenshot.png'><img width="150" height="150" src="{{ site.url }}/wp-content/uploads/2009/05/photos-screenshot-150x150.png" class="attachment-thumbnail" alt="Uploading Photos and Duplicate Photos" aria-describedby="gallery-6-518" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption' id='gallery-6-518'>
@@ -54,7 +54,7 @@ The project&#8217;s web page and downloads are here &#8211; [PicasaUploader on t
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='http://ivanz.com/wp-content/uploads/2009/05/error-handling-screenshot.png'><img width="150" height="150" src="http://ivanz.com/wp-content/uploads/2009/05/error-handling-screenshot-150x150.png" class="attachment-thumbnail" alt="Error Handling during Upload" aria-describedby="gallery-6-517" /></a>
+      <a href='{{ site.url }}/wp-content/uploads/2009/05/error-handling-screenshot.png'><img width="150" height="150" src="{{ site.url }}/wp-content/uploads/2009/05/error-handling-screenshot-150x150.png" class="attachment-thumbnail" alt="Error Handling during Upload" aria-describedby="gallery-6-517" /></a>
     </dt>
     
     <dd class='wp-caption-text gallery-caption' id='gallery-6-517'>
@@ -66,4 +66,4 @@ The project&#8217;s web page and downloads are here &#8211; [PicasaUploader on t
 </div>
 
  [1]: http://picasaweb.google.com
- [2]: http://ivanz.com/projects/picasauploader/
+ [2]: {{ site.url }}/projects/picasauploader/

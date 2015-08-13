@@ -23,4 +23,4 @@ Today I&#8217;ve hacked up two more openSUSE packages for you, the <a href="http
 
 You can find those in [my experimental repository][1]. Have fun!
 
- [1]: http://ivanz.com/projects/opensuse
+ [1]: {{ site.url }}/projects/opensuse

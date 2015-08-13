@@ -34,8 +34,8 @@ Configurable are:
 
 **Screenshots**
 
-[<img class="alignnone size-medium wp-image-168" title="Disqus Widget Settings" src="http://ivanz.com/wp-content/uploads/2008/07/disqus-widget-227x300.png" alt="Disqus Widget Settings" width="227" height="300" />][2][<img class="alignnone size-medium wp-image-169" title="Disqus Widget" src="http://ivanz.com/wp-content/uploads/2008/07/disqus-widget-2-167x300.png" alt="Disqus Widget" width="167" height="300" />][3]
+[<img class="alignnone size-medium wp-image-168" title="Disqus Widget Settings" src="{{ site.url }}/wp-content/uploads/2008/07/disqus-widget-227x300.png" alt="Disqus Widget Settings" width="227" height="300" />][2][<img class="alignnone size-medium wp-image-169" title="Disqus Widget" src="{{ site.url }}/wp-content/uploads/2008/07/disqus-widget-2-167x300.png" alt="Disqus Widget" width="167" height="300" />][3]
 
- [1]: http://ivanz.com/projects/wordpress/
- [2]: http://ivanz.com/wp-content/uploads/2008/07/disqus-widget.png
- [3]: http://ivanz.com/wp-content/uploads/2008/07/disqus-widget-2.png
+ [1]: {{ site.url }}/projects/wordpress/
+ [2]: {{ site.url }}/wp-content/uploads/2008/07/disqus-widget.png
+ [3]: {{ site.url }}/wp-content/uploads/2008/07/disqus-widget-2.png

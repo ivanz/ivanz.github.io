@@ -32,6 +32,6 @@ equalizer.
 
 The actual patch for CVS Head &#8211; [Banshee_Equalizer.patch][3]
 
- [1]: http://ivanz.com/2006/07/16/the-banshee-equalizer
+ [1]: {{ site.url }}/2006/07/16/the-banshee-equalizer
  [2]: http://cvs.gnome.org/viewcvs/banshee/src/Banshee.Base/MediaEngine/
  [3]: http://files.ivanz.com/projects/patches/banshee/Banshee_Equalizer.patch

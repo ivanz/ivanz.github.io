@@ -129,12 +129,12 @@ Then all that&#8217;s left is to make the Search class extend the StoryBase clas
 <pre class="brush: java; title: ; notranslate" title="">public class Search extends StoryBase {
 }</pre>
 
-[<img class="aligncenter size-full wp-image-764" title="Project Tree" src="http://ivanz.com/wp-content/uploads/2011/05/Untitled.png" alt="" width="178" height="108" />][3]  
-[<img class="aligncenter size-full wp-image-763" title="junit" src="http://ivanz.com/wp-content/uploads/2011/05/junit.png" alt="" width="649" height="85" />][4]
+[<img class="aligncenter size-full wp-image-764" title="Project Tree" src="{{ site.url }}/wp-content/uploads/2011/05/Untitled.png" alt="" width="178" height="108" />][3]  
+[<img class="aligncenter size-full wp-image-763" title="junit" src="{{ site.url }}/wp-content/uploads/2011/05/junit.png" alt="" width="649" height="85" />][4]
 
 &nbsp;
 
  [1]: http://jbehave.org/
  [2]: http://watij.com/
- [3]: http://ivanz.com/wp-content/uploads/2011/05/Untitled.png
- [4]: http://ivanz.com/wp-content/uploads/2011/05/junit.png
+ [3]: {{ site.url }}/wp-content/uploads/2011/05/Untitled.png
+ [4]: {{ site.url }}/wp-content/uploads/2011/05/junit.png

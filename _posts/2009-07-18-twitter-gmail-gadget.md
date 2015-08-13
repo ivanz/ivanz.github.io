@@ -28,7 +28,7 @@ To install:
 <span>You could also enable &#8220;</span><span><em>Navbar drag and drop</em>&#8221; so you can move the gadget up and down if you want.<br /> </span>
 
 <div id="attachment_668" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://ivanz.com/wp-content/uploads/2009/07/gmail-twitter.png"><img class="size-medium wp-image-668" title="Twitter Gmail Widget" src="http://ivanz.com/wp-content/uploads/2009/07/gmail-twitter-300x221.png" alt="Twitter Gmail Widget" width="300" height="221" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2009/07/gmail-twitter.png"><img class="size-medium wp-image-668" title="Twitter Gmail Widget" src="{{ site.url }}/wp-content/uploads/2009/07/gmail-twitter-300x221.png" alt="Twitter Gmail Widget" width="300" height="221" /></a>
   
   <p class="wp-caption-text">
     Twitter Gmail Widget

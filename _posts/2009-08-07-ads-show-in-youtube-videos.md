@@ -23,5 +23,5 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <a href="http://ivanz.com/wp-content/uploads/2009/08/youtube-ads.PNG"><img class="aligncenter size-full wp-image-672" title="youtube-ads" src="http://ivanz.com/wp-content/uploads/2009/08/youtube-ads.PNG" alt="youtube-ads" width="529" height="430" /></a>
+  <a href="{{ site.url }}/wp-content/uploads/2009/08/youtube-ads.PNG"><img class="aligncenter size-full wp-image-672" title="youtube-ads" src="{{ site.url }}/wp-content/uploads/2009/08/youtube-ads.PNG" alt="youtube-ads" width="529" height="430" /></a>
 </p>

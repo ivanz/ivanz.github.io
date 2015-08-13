@@ -29,6 +29,6 @@ And I played a few hours (including a wine drinking break) to implement proxy su
  [2]: http://bugzilla.gnome.org/show_bug.cgi?id=334805
  [3]: http://bugzilla.gnome.org/show_bug.cgi?id=334706
  [4]: http://bugzilla.gnome.org/show_bug.cgi?id=316752
- [5]: http://ivanz.com/files/projects/patches/f-spot/FormClient-WebProxy.diff
- [6]: http://ivanz.com/files/projects/patches/f-spot/GalleryExport-AccountDialog-URL-Validation-fix.diff
- [7]: http://ivanz.com/files/projects/patches/f-spot/GalleryExport-AddAlbum-Crash.diff
+ [5]: {{ site.url }}/files/projects/patches/f-spot/FormClient-WebProxy.diff
+ [6]: {{ site.url }}/files/projects/patches/f-spot/GalleryExport-AccountDialog-URL-Validation-fix.diff
+ [7]: {{ site.url }}/files/projects/patches/f-spot/GalleryExport-AddAlbum-Crash.diff

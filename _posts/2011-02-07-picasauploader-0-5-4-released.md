@@ -18,4 +18,4 @@ categories:
 ---
 I have just released a new version of my [PicasaWeb Uploader][1] tool. This is a maintenance release to fix issues with large video uploads and to port to the new GData API.
 
- [1]: http://ivanz.com/projects/picasauploader/
+ [1]: {{ site.url }}/projects/picasauploader/

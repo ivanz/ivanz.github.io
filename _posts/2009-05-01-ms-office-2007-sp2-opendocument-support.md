@@ -42,15 +42,15 @@ The test documents:
   * [Report Opened in Word 2007][3]
   * [Report Re-Saved in Word 2007 and opened in OpenOffice][4]
 
-Some screenshots:<a rel="attachment wp-att-535" href="http://ivanz.com/wp-content/uploads/2009/05/oo-word-3.png"><img class="aligncenter size-full wp-image-535" title="oo-word-3" src="http://ivanz.com/wp-content/uploads/2009/05/oo-word-3.png" alt="oo-word-3" width="583" height="375" /></a>
+Some screenshots:<a rel="attachment wp-att-535" href="{{ site.url }}/wp-content/uploads/2009/05/oo-word-3.png"><img class="aligncenter size-full wp-image-535" title="oo-word-3" src="{{ site.url }}/wp-content/uploads/2009/05/oo-word-3.png" alt="oo-word-3" width="583" height="375" /></a>
 
-<a rel="attachment wp-att-534" href="http://ivanz.com/wp-content/uploads/2009/05/oo-word-2.png"><img class="aligncenter size-medium wp-image-534" title="oo-word-2" src="http://ivanz.com/wp-content/uploads/2009/05/oo-word-2-300x76.png" alt="oo-word-2" width="300" height="76" /></a>
+<a rel="attachment wp-att-534" href="{{ site.url }}/wp-content/uploads/2009/05/oo-word-2.png"><img class="aligncenter size-medium wp-image-534" title="oo-word-2" src="{{ site.url }}/wp-content/uploads/2009/05/oo-word-2-300x76.png" alt="oo-word-2" width="300" height="76" /></a>
 
 <p style="text-align: center;">
-  <a rel="attachment wp-att-533" href="http://ivanz.com/wp-content/uploads/2009/05/oo-word.png"><img class="size-medium wp-image-533 aligncenter" title="oo-word" src="http://ivanz.com/wp-content/uploads/2009/05/oo-word-300x139.png" alt="oo-word" width="300" height="139" /></a>
+  <a rel="attachment wp-att-533" href="{{ site.url }}/wp-content/uploads/2009/05/oo-word.png"><img class="size-medium wp-image-533 aligncenter" title="oo-word" src="{{ site.url }}/wp-content/uploads/2009/05/oo-word-300x139.png" alt="oo-word" width="300" height="139" /></a>
 </p>
 
- [1]: http://ivanz.com/wp-content/uploads/2009/05/final-report.odt
- [2]: http://ivanz.com/wp-content/uploads/2009/05/report.pdf
- [3]: http://ivanz.com/wp-content/uploads/2009/05/final-report-word.pdf
- [4]: http://ivanz.com/wp-content/uploads/2009/05/final-report-word-ooo.pdf
+ [1]: {{ site.url }}/wp-content/uploads/2009/05/final-report.odt
+ [2]: {{ site.url }}/wp-content/uploads/2009/05/report.pdf
+ [3]: {{ site.url }}/wp-content/uploads/2009/05/final-report-word.pdf
+ [4]: {{ site.url }}/wp-content/uploads/2009/05/final-report-word-ooo.pdf

@@ -23,9 +23,9 @@ tags:
 A few days ago someone broke into one of the coffee machines in the computer science departament. Today I went to grab a coffee from the floor below in the engineering departament only to find out about the new security mesures in place:
 
 <p style="text-align: center;">
-  <a rel="attachment wp-att-328" href="http://ivanz.com/wp-content/uploads/2009/03/19032009131.jpg"><img class="size-medium wp-image-328 aligncenter" title="Coffee Machine Security FAIL 1" src="http://ivanz.com/wp-content/uploads/2009/03/19032009131-225x300.jpg" alt="Coffee Machine Security FAIL 1" width="225" height="300" /></a>
+  <a rel="attachment wp-att-328" href="{{ site.url }}/wp-content/uploads/2009/03/19032009131.jpg"><img class="size-medium wp-image-328 aligncenter" title="Coffee Machine Security FAIL 1" src="{{ site.url }}/wp-content/uploads/2009/03/19032009131-225x300.jpg" alt="Coffee Machine Security FAIL 1" width="225" height="300" /></a>
 </p>
 
 <p style="text-align: center;">
-  <a rel="attachment wp-att-329" href="http://ivanz.com/wp-content/uploads/2009/03/19032009132.jpg"><img class="aligncenter size-medium wp-image-329" title="Coffee Machine Security FAIL 2" src="http://ivanz.com/wp-content/uploads/2009/03/19032009132-225x300.jpg" alt="Coffee Machine Security FAIL 2" width="225" height="300" /></a>
+  <a rel="attachment wp-att-329" href="{{ site.url }}/wp-content/uploads/2009/03/19032009132.jpg"><img class="aligncenter size-medium wp-image-329" title="Coffee Machine Security FAIL 2" src="{{ site.url }}/wp-content/uploads/2009/03/19032009132-225x300.jpg" alt="Coffee Machine Security FAIL 2" width="225" height="300" /></a>
 </p>

@@ -21,7 +21,7 @@ tags:
   - Funny
 ---
 <div id="attachment_301" style="width: 510px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-301" href="http://ivanz.com/2009/01/26/the-story-of-the-google-chrome-logo/google-chrome-logo/"><img class="size-full wp-image-301" title="Google Chrome Logo" src="http://ivanz.com/wp-content/uploads/2009/01/google-chrome-logo.jpg" alt="The story of the Google Chrome Logo" width="500" height="375" /></a>
+  <a rel="attachment wp-att-301" href="{{ site.url }}/2009/01/26/the-story-of-the-google-chrome-logo/google-chrome-logo/"><img class="size-full wp-image-301" title="Google Chrome Logo" src="{{ site.url }}/wp-content/uploads/2009/01/google-chrome-logo.jpg" alt="The story of the Google Chrome Logo" width="500" height="375" /></a>
   
   <p class="wp-caption-text">
     The story of the Google Chrome Logo

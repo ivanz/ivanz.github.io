@@ -47,7 +47,7 @@ I will assume that you are already familiar with ASP.NET MVC and basic JavaScrip
 
 What I am going to build is a little sample where we have a user who has a list of favourite movies. It will look roughly like on the image below and will allow for adding new favourite movies, removing favourite movies and also reordering them up and down using the drag handler.
 
-[<img style="background-image: none; margin: 10px auto; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border-width: 0px;" title="image" src="http://ivanz.com/wp-content/uploads/2011/06/image_thumb3.png" border="0" alt="image" width="554" height="439" />][4]
+[<img style="background-image: none; margin: 10px auto; padding-left: 0px; padding-right: 0px; display: block; float: none; padding-top: 0px; border-width: 0px;" title="image" src="{{ site.url }}/wp-content/uploads/2011/06/image_thumb3.png" border="0" alt="image" width="554" height="439" />][4]
 
 ### Domain Model
 
@@ -272,7 +272,7 @@ This solves the problem of using Html field templates and basically reusing ASP.
 
 Let me show you the second and final problem. Disable client side validation and delete the title of e.g. “Movie 2” and click submit. Validation will fail, because Title of a movie is a required field, but while we are shown the edit form again** there are no validation messages**:
 
-[<img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="http://ivanz.com/wp-content/uploads/2011/06/image_thumb4.png" border="0" alt="image" width="544" height="174" />][5]
+[<img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="{{ site.url }}/wp-content/uploads/2011/06/image_thumb4.png" border="0" alt="image" width="544" height="174" />][5]
 
 Why is that? It’s the same problem I mentioned earlier in this post. Each time we render the view we assign different names to the fields, which do not match the ones submitted and leads to a *ModelState *inconsistency. We have to figure out how to persist the name and more specifically the Index across requests. We have two options:
 
@@ -307,7 +307,7 @@ And here&#8217; is the code for GetCollectionItemIndex:
 
 We get all submitted values for e.g. “*FavouriteMovie.Index*” put them in a queue, which we store for the duration of the request. Each time we render a collection item we dequeue its old index value and if none is available we generate a new one. That way we preserve the Index across requests and can have a consistent *ModelState* and see validation errors and messages:
 
-[<img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="http://ivanz.com/wp-content/uploads/2011/06/image_thumb5.png" border="0" alt="image" width="684" height="150" />][6]
+[<img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="{{ site.url }}/wp-content/uploads/2011/06/image_thumb5.png" border="0" alt="image" width="684" height="150" />][6]
 
 All that is left is to implement the “Add another” button functionality and we can do that easily by appending a new row to the movie editor, which we can fetch using Ajax and use our existing MovieEntryEditor.cshtml partial view like that:
 
@@ -342,9 +342,9 @@ I would love to hear your thoughts. The sample source code is available on my <a
 
 Next: **[Part 2 and how to avoid having an AJAX request with the use of jQuery Templates][2]**
 
- [1]: http://ivanz.com/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/
- [2]: http://ivanz.com/2011/06/20/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-2/
- [3]: http://ivanz.com/2011/06/29/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-3/
- [4]: http://ivanz.com/wp-content/uploads/2011/06/image3.png
- [5]: http://ivanz.com/wp-content/uploads/2011/06/image4.png
- [6]: http://ivanz.com/wp-content/uploads/2011/06/image5.png
+ [1]: {{ site.url }}/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/
+ [2]: {{ site.url }}/2011/06/20/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-2/
+ [3]: {{ site.url }}/2011/06/29/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-3/
+ [4]: {{ site.url }}/wp-content/uploads/2011/06/image3.png
+ [5]: {{ site.url }}/wp-content/uploads/2011/06/image4.png
+ [6]: {{ site.url }}/wp-content/uploads/2011/06/image5.png

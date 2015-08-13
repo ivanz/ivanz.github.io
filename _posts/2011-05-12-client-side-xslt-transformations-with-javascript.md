@@ -110,4 +110,4 @@ dojo.declare("XslTransform", [],
 
 </pre>
 
- [1]: http://ivanz.com/files/demos/js-xslt/demo.html
+ [1]: {{ site.url }}/files/demos/js-xslt/demo.html

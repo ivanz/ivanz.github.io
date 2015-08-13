@@ -17,6 +17,6 @@ categories:
   - Coding
 ---
 Whoever for whatever reason wants to use LibXine in Banshee rather than Helix/GStreamer can now use my Xine-Engine. Big thanks to Aaron Bockover. More info [here][1].  
-I can continue my work on System.Design.* now. <img src="http://ivanz.com/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+I can continue my work on System.Design.* now. <img src="{{ site.url }}/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
- [1]: http://ivanz.com/projects/banshee-xine/
+ [1]: {{ site.url }}/projects/banshee-xine/

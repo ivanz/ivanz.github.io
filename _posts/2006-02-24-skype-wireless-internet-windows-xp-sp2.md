@@ -39,4 +39,4 @@ The ways to fix those issues are:
 
 Hopefuly now you have a properly working Skype with Windows XP SP2, using wirless connection.
 
- [1]: http://ivanz.com/files/blog/Windows%20XP%20SP2%20TCP_IP%20Patcher.exe
+ [1]: {{ site.url }}/files/blog/Windows%20XP%20SP2%20TCP_IP%20Patcher.exe

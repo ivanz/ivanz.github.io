@@ -56,4 +56,4 @@ tags:
   6. Copy the freshly compiled files from *C:\cygwin\mono\build *to *C:\mono* and replace all existing. DONE!
 
  [1]: http://www.cygwin.com
- [2]: http://ivanz.com/wp-content/uploads/2006/03/make-380-1tar.bz2
+ [2]: {{ site.url }}/wp-content/uploads/2006/03/make-380-1tar.bz2

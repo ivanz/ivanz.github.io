@@ -102,7 +102,7 @@ Every time a menu item is deselected the memory is freed. Select/Deselect is in 
     -> g_filename_from_utf8 (command)
     -> g_spawn_command_line_async (command)
 
- [1]: http://ivanz.com/projects/gtk-quick-browser/
+ [1]: {{ site.url }}/projects/gtk-quick-browser/
  [2]: http://developer.gnome.org/doc/API/2.0/glib/glib-Key-value-file-parser.html
  [3]: http://developer.gnome.org/doc/API/2.0/glib/index.html
  [4]: http://developer.gnome.org/doc/API/2.0/gtk/index.html

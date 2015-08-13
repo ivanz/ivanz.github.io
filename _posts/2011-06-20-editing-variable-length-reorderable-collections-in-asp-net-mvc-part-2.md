@@ -30,11 +30,11 @@ One way to bring this completely to the client side is by the use of [jQuery Tem
 
 A reminder of what our editor looks like before I begin and a second remind that the source code is available on [GitHub][3]:
 
-[<img class="size-full wp-image-780 aligncenter" title="Sample Editor" src="http://ivanz.com/wp-content/uploads/2011/06/image3.png" alt="" width="550" height="435" />][4]
+[<img class="size-full wp-image-780 aligncenter" title="Sample Editor" src="{{ site.url }}/wp-content/uploads/2011/06/image3.png" alt="" width="550" height="435" />][4]
 
 To start with I have added a second link to our sample&#8217;s home page titled &#8220;Edit with jQuery templates&#8221;:
 
-[<img class="aligncenter size-full wp-image-803" title="Home Page of the sample" src="http://ivanz.com/wp-content/uploads/2011/06/home-jquery.png" alt="" width="298" height="202" />][5]
+[<img class="aligncenter size-full wp-image-803" title="Home Page of the sample" src="{{ site.url }}/wp-content/uploads/2011/06/home-jquery.png" alt="" width="298" height="202" />][5]
 
 Corresponding controller actions:
 
@@ -178,9 +178,9 @@ In Part 3 I will look at Knockout JS templating, data binding and moving variabl
 
 **Next: [Part 3 and Knockout JS client-side collection editing, JSON model binding and client-side validation.][6]**
 
- [1]: http://ivanz.com/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/ "Editing Variable Length Reorderable Collections in ASP.NET MVC – Part 1"
+ [1]: {{ site.url }}/2011/06/16/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-1/ "Editing Variable Length Reorderable Collections in ASP.NET MVC – Part 1"
  [2]: http://api.jquery.com/category/plugins/templates/
  [3]: http://github.com/ivanz/ASP.NET-MVC-Collection-Editing
- [4]: http://ivanz.com/wp-content/uploads/2011/06/image3.png
- [5]: http://ivanz.com/wp-content/uploads/2011/06/home-jquery.png
- [6]: http://ivanz.com/2011/06/29/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-3/
+ [4]: {{ site.url }}/wp-content/uploads/2011/06/image3.png
+ [5]: {{ site.url }}/wp-content/uploads/2011/06/home-jquery.png
+ [6]: {{ site.url }}/2011/06/29/editing-variable-length-reorderable-collections-in-asp-net-mvc-part-3/

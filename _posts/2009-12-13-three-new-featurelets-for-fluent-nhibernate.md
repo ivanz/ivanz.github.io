@@ -118,5 +118,5 @@ If there is no comparer set for the property it will fall back to using the *Equ
 
  [1]: http://fluentnhibernate.org/
  [2]: http://nhforge.org
- [3]: http://ivanz.com/2009/12/04/how-to-avoid-passing-property-names-as-strings-using-c-3-0-expression-trees/
+ [3]: {{ site.url }}/2009/12/04/how-to-avoid-passing-property-names-as-strings-using-c-3-0-expression-trees/
  [4]: http://github.com/ivanz/fluent-nhibernate

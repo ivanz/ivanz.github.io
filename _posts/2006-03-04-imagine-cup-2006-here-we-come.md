@@ -20,4 +20,4 @@ categories:
 tags:
   - Achievements
 ---
-Me and my team made it trough and now we are in the UK Finals in Reading. Can&#8217;t say I was expecting that to happen, cause we prepared the whole thing for a week. We still have hard work to do till the date of the Final &#8211; a poster and a presentation&#8230; I am so happy that I will be able to wear something with linux on it (like a tie with TUX) on a Microsoft event!!! <img src="http://ivanz.com/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Me and my team made it trough and now we are in the UK Finals in Reading. Can&#8217;t say I was expecting that to happen, cause we prepared the whole thing for a week. We still have hard work to do till the date of the Final &#8211; a poster and a presentation&#8230; I am so happy that I will be able to wear something with linux on it (like a tie with TUX) on a Microsoft event!!! <img src="{{ site.url }}/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />

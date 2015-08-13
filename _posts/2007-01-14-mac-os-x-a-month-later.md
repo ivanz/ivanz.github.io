@@ -82,5 +82,5 @@ set convert-meta off`
 
 Source &#8211; [http://tech.inhelsinki.nl/gnu\_developement\_under\_mac\_os_x/][2]
 
- [1]: http://ivanz.com/2006/10/29/mac-os-x-not-for-me/
+ [1]: {{ site.url }}/2006/10/29/mac-os-x-not-for-me/
  [2]: http://tech.inhelsinki.nl/gnu_developement_under_mac_os_x/
