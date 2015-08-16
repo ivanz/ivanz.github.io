@@ -1,6 +1,6 @@
 # General
 name: Ivan Zlatev
-description: Hello.
+description: 
 url: http://ivanz.github.io
 
 highlighter: pygments
@@ -12,6 +12,7 @@ permalink: /:title
 disqus-id: ivanz
 twitter: ivanzlatev
 github: ivanz
+soundcloud: psyvian
 
 # RSS feed
 rss-feed-limit: 50

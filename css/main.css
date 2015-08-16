@@ -58,8 +58,6 @@ nav {
         text-transform: uppercase;
     }
 
-    nav a:nth-child(2n) { margin: 5px; }
-
     nav a:hover {
         border: 0;
         color: #f2f2f2 !important;
@@ -212,6 +210,33 @@ blockquote {
         color: #212121;
         text-decoration: underline;
     }
+
+
+/* ------------------------------------------------------------------------
+-  Recent Posts (header). -
+-------------------------------------------------------------------------*/
+
+.recent-posts nav {
+    text-align: left;
+}
+
+.recent-posts a {
+    color: #212121;
+    text-transform: none;
+    font-size: 0.8em;
+    display: block;
+}
+
+    .recent-posts a:hover, .recent-posts a:active {
+        color: #f2f2f2 !important;
+        background: #2c3e50;
+        border: 0;
+    }
+
+.recent-posts h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
 
 
 /* ------------------------------------------------------------------------
