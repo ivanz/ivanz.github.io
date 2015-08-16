@@ -28,19 +28,22 @@ So yeah I spend an afternoon trying to figure out the state of BDD (Behavior Dri
 
 Let&#8217;s say we have the following &#8220;Search&#8221; story and a more specific scenario &#8211; &#8220;display an error dialog if I don&#8217;t fill in the search form&#8221;:
 
-<pre class="brush: plain; title: ; notranslate" title="">Narrative: I should be able to search
+```
+Narrative: I should be able to search
 
 Scenario: I should see an error if I try to search without filling in the search form fields.
 
 When I open 'http://mysite.com'
 When I click on the 'Search' button
-Then I should see an error</pre>
+Then I should see an error
+```
 
 First thing you will notice is that JBehave doesn&#8217;t support the &#8220;And&#8221; keyword so we can&#8217;t wring &#8220;When I open &#8230; AND I click on the Seach button&#8221;.
 
 Similar to other gherkin/cucumber based frameworks JBehave allows us to implement each step of the scenario as a method in a class, which optionally takes parameters mapped to words from the scenario. The above one can be stubbed like bellow. Also not that if properly configured you can make JBehave junit runner spit out the stubs for you to copy paste in your code (more about that later):
 
-<pre class="brush: java; title: ; notranslate" title="">public class Search
+```java
+public class Search
 {
 	@When("I open '$page'")
 	public void whenIOpen(String page)
@@ -58,11 +61,13 @@ Similar to other gherkin/cucumber based frameworks JBehave allows us to implemen
 	public void thenIShouldSeeAnError(){
 		// TODO
 	}
-}</pre>
+}
+```
 
 To implement the browser automation in Java there exist a Java variant of the Ruby watir library (and the .NET Watin library) called &#8230; surprise&#8230; watiJ. It&#8217;s available [here][2]. Major pitfall with it though is that it actually embeds the IE COM component and mozilla&#8217;s ghecko engine instead launching the real IE/Firefox (like the above mentioned framework do) and it only supports IE6 and I saw some C++ runtime problems with the ghecko engine. Nevertheless to give you a feel of how the above tests can be implemented:
 
-<pre class="brush: java; title: ; notranslate" title="">public class Search extends StoryBase {
+```java
+public class Search extends StoryBase {
 
 	@When("I open '$page'")
 	public void whenIOpen(String page)
@@ -84,7 +89,8 @@ To implement the browser automation in Java there exist a Java variant of the Ru
 		assertNotNull(errorDialogTitleDiv);
 		assertEquals("Error", errorDialogTitleDiv.get.innerHTML());
 	}
-}</pre>
+}
+```
 
 Now, how about running them? A few things before that:
 
@@ -102,7 +108,7 @@ To save myself from having to configure each story  I present you my *StoryBas
 
 Here it is:
 
-```
+```java
 public abstract class StoryBase extends JUnitStory {
     protected final static WebSpec WebBrowser = new WebSpec().ie();
 
@@ -127,8 +133,10 @@ public abstract class StoryBase extends JUnitStory {
 
 Then all that&#8217;s left is to make the Search class extend the StoryBase class and it is now runnable in JUnit inside and outside Eclipse.
 
-<pre class="brush: java; title: ; notranslate" title="">public class Search extends StoryBase {
-}</pre>
+```java
+public class Search extends StoryBase {
+}
+```
 
 [<img class="aligncenter size-full wp-image-764" title="Project Tree" src="{{ site.url }}/wp-content/uploads/2011/05/Untitled.png" alt="" width="178" height="108" />][3]  
 [<img class="aligncenter size-full wp-image-763" title="junit" src="{{ site.url }}/wp-content/uploads/2011/05/junit.png" alt="" width="649" height="85" />][4]
