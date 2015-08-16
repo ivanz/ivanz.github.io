@@ -40,10 +40,10 @@ layout: default
         <script type="text/javascript">
             var disqus_shortname = '{{ site.disqus-id }}';
             
-        {% if post.dsq_thread_id %}
-            var disqus_identifier = '{{ post.dsq_thread_id }}';
+        {% if page.dsq_thread_id %}
+            var disqus_identifier = '{{ page.dsq_thread_id }}';
         {% else %}
-            var disqus_identifier = '{{ post.url }}';
+            var disqus_identifier = '{{ page.url }}';
         {% endif %}
 
             (function () {
