@@ -102,7 +102,8 @@ To save myself from having to configure each story  I present you my *StoryBas
 
 Here it is:
 
-<pre class="brush: java; title: ; notranslate" title="">public abstract class StoryBase extends JUnitStory {
+```java
+public abstract class StoryBase extends JUnitStory {
     protected final static WebSpec WebBrowser = new WebSpec().ie();
 
     @Override
@@ -122,7 +123,7 @@ Here it is:
         return new InstanceStepsFactory(configuration(), this).createCandidateSteps();
     }
 }
-</pre>
+```
 
 Then all that&#8217;s left is to make the Search class extend the StoryBase class and it is now runnable in JUnit inside and outside Eclipse.
 
