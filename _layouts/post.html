@@ -40,7 +40,7 @@ layout: default
         <script type="text/javascript">
             var disqus_shortname = '{{ site.disqus-id }}';
             
-        {% if site.dsq_thread_id %}
+        {% if post.dsq_thread_id %}
             var disqus_identifier = '{{ post.dsq_thread_id }}';
         {% else %}
             var disqus_identifier = '{{ post.url }}';
