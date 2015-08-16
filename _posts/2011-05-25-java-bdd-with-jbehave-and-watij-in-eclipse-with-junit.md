@@ -102,7 +102,7 @@ To save myself from having to configure each story  I present you my *StoryBas
 
 Here it is:
 
-```java
+```
 public abstract class StoryBase extends JUnitStory {
     protected final static WebSpec WebBrowser = new WebSpec().ie();
 
