@@ -1,9 +1,15 @@
 # General
 name: Ivan Zlatev
-description: 
 url: http://ivanz.github.io
 
 highlighter: pygments
+safe: true 
+lsi: false
+pygments: true
+markdown: redcarpet
+redcarpet: 
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
 
 paginate: 5
 permalink: /:title
