@@ -34,10 +34,18 @@ layout: default
     </div>
 
 {% if site.disqus-id %}
+
 <div class="module color-3">
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             var disqus_shortname = '{{ site.disqus-id }}';
+            
+        {% if site.dsq_thread_id %}
+            var disqus_identifier = '{{ post.dsq_thread_id }}';
+        {% else %}
+            var disqus_identifier = '{{ post.url }}';
+        {% endif %}
+
             (function () {
                 var dsq = document.createElement('script');
                 dsq.type = 'text/javascript';
