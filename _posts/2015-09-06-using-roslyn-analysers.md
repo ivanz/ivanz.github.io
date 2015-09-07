@@ -2,7 +2,6 @@
 title: Using, configuring and distributing Roslyn analysers in teams
 author: Ivan Zlatev
 layout: post
-permalink: /2015/10/06/using-roslyn-analysers/
 categories:
   - Coding
 ---
