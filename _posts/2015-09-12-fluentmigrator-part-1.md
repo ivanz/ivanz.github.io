@@ -1,5 +1,5 @@
 ---
-title: FluentMigrator Part 1/3: Creating and running our first database migration
+title: "FluentMigrator Part 1/3: Creating and running our first database migration"
 author: Ivan Zlatev
 layout: post
 categories:
