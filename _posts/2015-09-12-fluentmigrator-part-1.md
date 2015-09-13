@@ -9,7 +9,7 @@ categories:
 # In this series
 
 * FluentMigrator Part 1/3: Creating and running our first database migration (this post)
-* FluentMigrator Part 2/3: Continuous Integration and Testing with database migrations
+* [FluentMigrator Part 2/3: Continuous Integration and Testing with database migrations](/2015/09/13/fluentmigrator-part-2/)
 * FluentMigrator Part 3/3: Continuous Delivery with database migrations
 
 
