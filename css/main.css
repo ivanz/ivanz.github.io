@@ -105,6 +105,7 @@ nav {
     .main-content a { 
         color: #063563; 
         text-decoration: none;
+        font-weight: bold;
     }
     .main-content a:hover, .main-content a:focus { color: #2980b9; }
 
@@ -115,6 +116,9 @@ nav {
     .main-content article h1 {
         margin: 0 0 0.5em 0;
     }
+        .main-content article h1 a {
+            font-size: 125%;
+        }
 
 
 .category {
