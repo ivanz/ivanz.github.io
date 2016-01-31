@@ -1,7 +1,7 @@
 ---
 title: "MSpec (Machine.Specifications) Visual Studio Adapter 1.7.0 released"
 author: Ivan Zlatev
-permalink: /2016/01/28/mspec-visualstudio-adapter-1-7-0-released/
+permalink: /2016/01/28/mspec-visualstudio-adapter-1-7-0-released
 layout: post
 categories:
   - Coding
