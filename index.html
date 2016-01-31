@@ -8,7 +8,7 @@ layout: default
         <article class="module color-3">
                 <h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
                 <!-- <span class="category">{{ post.categories | array_to_sentence_string }}</span> -->
-
+                <hr>
             {% if post.content contains '<!--break-->' %}
                 {{ post.content | split:'<!--break-->' | first }}
                 <a href="{{ post.url }}" style="font-weight: bold">[read more...]</a>
