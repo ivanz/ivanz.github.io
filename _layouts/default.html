@@ -57,7 +57,7 @@
             <h4>Recent Posts</h4>
             <nav>
             {% for post in site.posts limit:20 %}
-                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">&#8227; {{ post.title }}</a>
+                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="truncate">{{ post.title }}</a>
             {% endfor %}
             </nav>
         </div>

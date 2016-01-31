@@ -2,6 +2,11 @@
 -   Make browsers more friendly with padding and margin. -
 -------------------------------------------------------------------------*/
 
+@font-face {
+    font-family: "DejaVu Sans Mono";
+    src: local("DejaVu Sans Mono"), url("../fonts/dejavu-sans-mono.ttf");
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -15,7 +20,7 @@
 
 .color-1 { background: #2c3e50; } /* Title background */
 .color-2 { background: #34495e; } /* Description background */
-.color-3 { background: #f2f2f2; } /* Modules background */
+.color-3 { background: white; } /* Modules background */
 .color-4 { background: #7f8c8d; } /* Main menu background */
 
 
@@ -26,16 +31,8 @@
 html, body {
     background: #d1d1d1;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.1em;
+    font-size: 100%;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
-    -webkit-transition: color 0.25s ease-in, background 0.25s ease-in;
-    -moz-transition: color 0.25s ease-in, background 0.25s ease-in;
-    -o-transition: color 0.25s ease-in, background 0.25s ease-in;
-    transition: color 0.25s ease-in, background 0.25s ease-in;
 }
 
 p { line-height: 1.4; }
@@ -49,32 +46,20 @@ p { line-height: 1.4; }
 -------------------------------------------------------------------------*/
 
 nav {
-    font-size: 0.9em;
+    font-size: 80%;
     text-align: center;
 }
 
     nav a {
         padding: 0.3em;
         text-transform: uppercase;
+        line-height: 3em;
     }
 
     nav a:hover {
         border: 0;
         color: #f2f2f2 !important;
         text-decoration: underline;
-    }
-
-
-article p a {
-    border-bottom: .125em solid #ccc;
-    display: inline;
-    padding: 0 0 .15em 0;
-}
-
-    article p a:hover, article p a:active {
-        color: #f2f2f2 !important;
-        background: #2c3e50;
-        border: 0;
     }
 
 /* ------------------------------------------------------------------------
@@ -86,7 +71,7 @@ article p a {
     font-weight: 300;
     line-height: 1.7;
     text-align: center;
-    width: 35%;
+    width: 25%;
 }
 
     .main-header h1 {
@@ -97,6 +82,7 @@ article p a {
     .main-header a {
         color: #f5f5f5;
         text-transform: uppercase;
+        text-decoration: none;        
     }
 
     .main-header a:hover, .main-header a:focus { color: #e1e1e1; }
@@ -112,11 +98,22 @@ article p a {
 .main-content {
     float: right;
     padding: 0;
-    width: 65%;
+    width: 75%;
 }
 
-    .main-content a { color: #2c3e50; }
+    .main-content a { 
+        color: #063563; 
+        text-decoration: none;
+    }
     .main-content a:hover, .main-content a:focus { color: #2980b9; }
+
+.main-content article {
+    font-size: 95%;
+}
+
+    .main-content article h1 {
+        margin: 0 0 0.5em 0;
+    }
 
 
 .category {
@@ -135,7 +132,6 @@ hr {
 
 
 .module {
-    color: #212121;
     margin: 0.5em;
     overflow: hidden;
     padding: 1.5em;
@@ -144,7 +140,6 @@ hr {
 
     .main-content .module {
         border-bottom: 2px solid #b1b1b1;
-        font-size: 0.8em;
         margin-right: 1em;
     }
 
@@ -160,13 +155,17 @@ hr {
 -  Blockquote, code, pre. -
 -------------------------------------------------------------------------*/
 
-pre, code {
-    background: #f7f7f7;
-    font-size: 0.9em;
+pre {
+    background-color: #fcfcfc;	
+    border: 1px dashed #e0e0e0;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    
+    font-size: 90%;
     line-height: 1.5em;
     padding: 0.4em;
+    font-family: DejaVu Sans Mono, Bitstream Vera Sans Mono, Consolas, Courier New, Courier, monospace
 }
-
 
 blockquote {
     font-style: italic;
@@ -222,7 +221,6 @@ blockquote {
 .recent-posts a {
     color: #212121;
     text-transform: none;
-    font-size: 0.8em;
     display: block;
 }
 
@@ -245,7 +243,6 @@ blockquote {
 table {
     border: 1px solid #a1a1a1;
     border-collapse: collapse;
-    font-size: 0.8em;
     width: 100%;
 }
 
@@ -305,7 +302,7 @@ table {
 .footer {
     clear: both;
     color: #888;
-    font-size: 0.5em;
+    font-size: 50%;
     margin: 0em;
     padding: 0.2em;
     text-align: center;
@@ -341,4 +338,15 @@ table {
 
     .social { text-align: center; }
     .social li { display: block; width: 100%; }
+}
+
+
+/* ------------------------------------------------------------------------
+-  Utilities
+-------------------------------------------------------------------------*/
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
