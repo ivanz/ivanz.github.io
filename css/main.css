@@ -3,8 +3,8 @@
 -------------------------------------------------------------------------*/
 
 @font-face {
-    font-family: "DejaVu Sans Mono";
-    src: local("DejaVu Sans Mono"), url("../fonts/dejavu-sans-mono.ttf");
+    font-family: "codeFont";
+    src: url("/fonts/dejavu-sans-mono.ttf");
 }
 
 * {
@@ -169,7 +169,7 @@ pre {
     font-size: 90%;
     line-height: 1.5em;
     padding: 0.4em;
-    font-family: DejaVu Sans Mono, Bitstream Vera Sans Mono, Consolas, Courier New, Courier, monospace
+    font-family: codeFont, Consolas, Courier New, Courier, monospace
 }
 
 blockquote {
