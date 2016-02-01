@@ -4,7 +4,9 @@
 
 @font-face {
     font-family: "codeFont";
-    src: url("/fonts/dejavu-sans-mono.ttf");
+    src: url("../fonts/dejavu-sans-mono.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -160,16 +162,25 @@ hr {
 -  Blockquote, code, pre. -
 -------------------------------------------------------------------------*/
 
-pre {
+pre, code {
+    font-family: "codeFont", "Consolas", "Courier New", "Courier", "monospace";
+}
+
+code {
     background-color: #fcfcfc;	
     border: 1px dashed #e0e0e0;
-    box-sizing: border-box;
-	-moz-box-sizing: border-box;
-    
-    font-size: 95%;
+}
+
+pre code {
+    border: none;
+}
+
+pre {
     line-height: 1.5em;
     padding: 0.4em;
-    font-family: "codeFont", "Consolas", "Courier New", "Courier", "monospace";
+    background-color: #fcfcfc;	
+    border: 1px dashed #e0e0e0;
+    font-size: 85%;
 }
 
 blockquote {
