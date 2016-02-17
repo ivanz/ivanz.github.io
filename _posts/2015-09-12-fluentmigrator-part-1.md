@@ -51,7 +51,7 @@ And this is what it looks like when we run it:
 
 Our domain model:
 
-```C#
+```csharp
 public class Car
 {
     public int Id { get; set; }
@@ -78,7 +78,7 @@ CREATE TABLE [dbo].[Cars] (
 
 Let's add a new property to the our `Car` - let's say `Make`, so now it looks like this:
 
-```C#
+```csharp
 public class Car
 {
     public int Id { get; set; }
@@ -95,7 +95,7 @@ Then we can use the fluent syntax to change the database schema to include the n
 
 `201509121634_Add_Make_Column_To_Car.cs`
 
-```C#
+```csharp
 [Migration(201509121634)]
 public class Add_Make_Column_To_Car : Migration
 {

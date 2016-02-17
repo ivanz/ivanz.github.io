@@ -28,7 +28,7 @@ We want to be able to do the following:
 
 The end goal is to be able to write tests like this using a nicely reusable base test fixture that will do all the magic for us.
 
-```C#
+```csharp
 public class SavingCarsNUnitTest : DatabaseTestFixtureBase
 {
 
@@ -86,7 +86,7 @@ The way we've solved this problem at [MarketInvoice](https://marketinvoice.com) 
 Let's dive in the code of the `IntegrationTestLifecycle` class a bit...
 
 
-```C#
+```csharp
 public class IntegrationTestLifecycle : IDisposable
 {
 // <..snip...>
@@ -112,43 +112,43 @@ It's pretty straightforward what's happening here:
 
 1. We are generating a unique database name to use:
 
-	```C#
-	private static string GenerateUniqueDatabaseName(string originialConnectionString)
-	{
-	    SqlConnectionStringBuilder connectionInfo = new SqlConnectionStringBuilder(originialConnectionString);
-	    connectionInfo.InitialCatalog = String.Format(CultureInfo.InvariantCulture, 
-                                                     "{0}_{1}", 
-                                                     connectionInfo.InitialCatalog, 
-                                                     Guid.NewGuid().ToString());
-	
-	    return connectionInfo.ToString();
-	}
-	```
+```csharp
+private static string GenerateUniqueDatabaseName(string originialConnectionString)
+{
+    SqlConnectionStringBuilder connectionInfo = new SqlConnectionStringBuilder(originialConnectionString);
+    connectionInfo.InitialCatalog = String.Format(CultureInfo.InvariantCulture, 
+                                                    "{0}_{1}", 
+                                                    connectionInfo.InitialCatalog, 
+                                                    Guid.NewGuid().ToString());
+
+    return connectionInfo.ToString();
+}
+```
 
 2. We are creating a new database on the database server using that name:
 
-	```C#
-	private void CreateDatabase(string connectionString)
-	{
-	    SqlConnectionStringBuilder connectionInfo = new SqlConnectionStringBuilder(connectionString);
-	
-	    SqlConnectionStringBuilder master = new SqlConnectionStringBuilder(connectionString) {
-	        InitialCatalog = "master"
-	    };
-	
-	    using (SqlConnection sqlConnection = new SqlConnection(master.ToString()))
-	    using (SqlCommand createDbCommand = sqlConnection.CreateCommand()) {
-	        sqlConnection.Open();
-	        createDbCommand.CommandTimeout = DEFAULT_SQL_COMMAND_TIMEOUT;
-	        createDbCommand.CommandText = String.Format(
-	@"CREATE DATABASE [{0}] 
-	ALTER DATABASE [{0}] SET ALLOW_SNAPSHOT_ISOLATION ON 
-	ALTER DATABASE [{0}] SET RECOVERY SIMPLE", connectionInfo.InitialCatalog);
-	        createDbCommand.ExecuteNonQuery();
-	        sqlConnection.Close();
-	    }
-	}
-	```
+```csharp
+private void CreateDatabase(string connectionString)
+{
+    SqlConnectionStringBuilder connectionInfo = new SqlConnectionStringBuilder(connectionString);
+
+    SqlConnectionStringBuilder master = new SqlConnectionStringBuilder(connectionString) {
+        InitialCatalog = "master"
+    };
+
+    using (SqlConnection sqlConnection = new SqlConnection(master.ToString()))
+    using (SqlCommand createDbCommand = sqlConnection.CreateCommand()) {
+        sqlConnection.Open();
+        createDbCommand.CommandTimeout = DEFAULT_SQL_COMMAND_TIMEOUT;
+        createDbCommand.CommandText = String.Format(
+@"CREATE DATABASE [{0}] 
+ALTER DATABASE [{0}] SET ALLOW_SNAPSHOT_ISOLATION ON 
+ALTER DATABASE [{0}] SET RECOVERY SIMPLE", connectionInfo.InitialCatalog);
+        createDbCommand.ExecuteNonQuery();
+        sqlConnection.Close();
+    }
+}
+```
 
 3. We are migrating the database to the latest version (covered a bit later in this post)
 4. We are exposing the brand new connection string to the consumer of the component.
@@ -168,20 +168,20 @@ To do that we are going to:
 
 2. Remove any `GO`, `USE` statements and tell it not to generate the "CREATE DATABASE" statement. It will end up looking like this:
 
-	```SQL
-	SET ANSI_NULLS ON
-	
-	SET QUOTED_IDENTIFIER ON
-	
-	CREATE TABLE [dbo].[Cars](
-		[Id] [int] IDENTITY(1,1) NOT NULL,
-		[Model] [nvarchar](max) NOT NULL,
-	PRIMARY KEY CLUSTERED 
-	(
-		[Id] ASC
-	)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-	) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-	```
+```sql
+SET ANSI_NULLS ON
+
+SET QUOTED_IDENTIFIER ON
+
+CREATE TABLE [dbo].[Cars](
+    [Id] [int] IDENTITY(1,1) NOT NULL,
+    [Model] [nvarchar](max) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+    [Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+```
 
 3. Add the `.sql` file as `0_CreateSchema.sql` in our `DatabaseMigrations` project and set it to be an **Embedded Resource** (note how the file name will match our migration name):
 
@@ -189,40 +189,40 @@ To do that we are going to:
 
 4. Write our migration:
 
-	```C#
-	[Migration(0)]
-	public class _0_CreateSchema : ForwardOnlyMigration
-	{
-	    public override void Up()
-	    {
-	        Execute.EmbeddedScript("0_CreateSchema.sql");
-	    }
-	}
-	```
+```csharp
+[Migration(0)]
+public class _0_CreateSchema : ForwardOnlyMigration
+{
+    public override void Up()
+    {
+        Execute.EmbeddedScript("0_CreateSchema.sql");
+    }
+}
+```
 
 5. Finally let's expose a simple Migration runner from our `DatabaseMigrations` project using the `FluentMigrator.Runners` NuGet package:
 
-	```C#
-	public class DatabaseMigrationRunner
-	{
-	    public static bool MigrateDatabase(string databaseType, string connectionString, Assembly migrationsAssembly)
-	    {
-	        try {
-	            RunnerContext runnerContext = new RunnerContext(new TextWriterAnnouncer(Console.Out)) {
-	                Database = databaseType,
-	                Connection = connectionString,
-	                Targets = new[] { migrationsAssembly.Location },
-	            };
-	
-	            new TaskExecutor(runnerContext).Execute();
-	        } catch {
-	            return false;
-	        }
-	
-	        return true;
-	    }
-	}
-	```
+```csharp
+public class DatabaseMigrationRunner
+{
+    public static bool MigrateDatabase(string databaseType, string connectionString, Assembly migrationsAssembly)
+    {
+        try {
+            RunnerContext runnerContext = new RunnerContext(new TextWriterAnnouncer(Console.Out)) {
+                Database = databaseType,
+                Connection = connectionString,
+                Targets = new[] { migrationsAssembly.Location },
+            };
+
+            new TaskExecutor(runnerContext).Execute();
+        } catch {
+            return false;
+        }
+
+        return true;
+    }
+}
+```
 
 That's it:
 

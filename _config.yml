@@ -1,16 +1,16 @@
 # General
 name: Ivan Zlatev
-url: http://ivanz.com
+url: http://127.0.0.1:4000/
 
-highlighter: pygments
-safe: true 
-lsi: false
-pygments: true
-markdown: redcarpet
-redcarpet: 
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: rouge
+markdown: kramdown
 
-
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+gems: ['jekyll-paginate']
+  
 paginate: 5
 permalink: /:year/:month/:day/:title/
 

@@ -30,7 +30,7 @@ Support for the following is also planned: WCF server/client, Azure Service Bus,
 
 Use the CorrelatorSharp.WebApi package:
 
-```C#
+```csharp
 config.Filters.Add(new CorrelationIdActionFilter());
 ``` 
 
@@ -38,7 +38,7 @@ config.Filters.Add(new CorrelationIdActionFilter());
 
 You can do it manually (or through one of the CorrelatorSharp packages such as *CorrelatorSharp.NLog* or *CorrelatorSharp.ApplicationInsights*):
 
-```C#
+```csharp
 Console.WriteLine("Current Activity Id: " + ActivityScope.Current.Id);
 Console.WriteLine("Current Activity Name: " + ActivityScope.Current.Name);
 Console.WriteLine("Current Activity ParentId: " + ActivityScope.Current.ParentId);
@@ -48,7 +48,7 @@ Console.WriteLine("Current Activity ParentId: " + ActivityScope.Current.ParentId
 
 If you are using RestSharp you can use the *CorrelatorSharp.RestSharp*  or just add a `X-Correlation-Id` header to your requests:
 
-```C#
+```csharp
 RestRequest request;
 
 request.AddCorrelationHeader();
@@ -56,7 +56,7 @@ request.AddCorrelationHeader();
 
 ### 4. Manage activity scopes
 
-```C#
+```csharp
 using (ActivityScope scope = new ActivityScope("Operation")) {
       Console.WriteLine("Current Activity Id: " + ActivityScope.Current.Id);
       Console.WriteLine("Current Activity Name: " + ActivityScope.Current.Name);
@@ -72,7 +72,7 @@ using (ActivityScope scope = new ActivityScope("Operation")) {
 
 Example output:
 
-```C#
+```csharp
 Current Activity Id: 4050a075-51db-4e62-8a92-17720a73045e
 Current Activity Name: Operation
 Current Activity ParentId:
