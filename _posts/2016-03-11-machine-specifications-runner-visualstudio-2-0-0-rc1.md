@@ -13,14 +13,14 @@ This is a significant update to the Test Adapter with substantial improvements o
 
 * New test discovery engine built directly on top of MSpec replaces old Mono.Cecil based one:
 
- * Full support for `[Behavior]` and `Behaves_like<>` and everything MSpec
- * Full support for assembly binding (`.config`) during test discovery (and execution)
+  * Full support for `[Behavior]` and `Behaves_like<>` and everything MSpec
+  * Full support for assembly binding (`.config`) during test discovery (and execution)
 
 * Out of the box support for Visual Studio Online, TFS, Visual Studio Team Services through the NuGet package
 
- * Major performance improvements when running whole test assemblies
- * Much clearer test result output
- * Fully compatible with VS parallel assembly execution (enabled through `MaxCpuCount`  set to 0 in `*.runsettings`)
+  * Major performance improvements when running whole test assemblies
+  * Much clearer test result output
+  * Fully compatible with VS parallel assembly execution (enabled through `MaxCpuCount`  set to 0 in `*.runsettings`)
 
 
 * Inner exceptions are now displayed in failed test results
