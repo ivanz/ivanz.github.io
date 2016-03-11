@@ -7,10 +7,9 @@ categories:
   - Coding
 ---
 
-**Get it here:** [https://github.com/machine-visualstudio/machine.vstestadapter/releases/tag/v2.0.0-rc1](https://github.com/machine-visualstudio/machine.vstestadapter/releases/tag/v2.0.0-rc1) 
-
-
 This is a significant update to the Test Adapter with substantial improvements on which I have been working over the past weeks.
+
+**Get it here:** [https://github.com/machine-visualstudio/machine.vstestadapter/releases/tag/v2.0.0-rc1](https://github.com/machine-visualstudio/machine.vstestadapter/releases/tag/v2.0.0-rc1) 
 
 * New test discovery engine built directly on top of MSpec replaces old Mono.Cecil based one:
 
