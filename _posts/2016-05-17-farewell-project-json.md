@@ -38,8 +38,7 @@ The good news is that:
 
 * MSBuild is open source and [available on GitHub](https://github.com/Microsoft/msbuild) and is bound to become fully cross-platform
 * They is an effort to dramatically simplify and trim the structure of the `.csproj` - e.g. remove the requirement to have a list of files. GitHub issue here: [https://github.com/dotnet/roslyn-project-system/issues/40](https://github.com/dotnet/roslyn-project-system/issues/40)
-* There is a new revamped project system coming which will enable a lot of scenarios without the need for Visual Studio: [https://github.com/dotnet/roslyn-project-system/]
-(https://github.com/dotnet/roslyn-project-system/)
+* There is a new revamped project system coming which will enable a lot of scenarios without the need for Visual Studio: [https://github.com/dotnet/roslyn-project-system/](https://github.com/dotnet/roslyn-project-system/)
 * The goal is that even with the MSBuild set-up working with builds and project will be as seamless in Visual Studio IDE as outside of it.
 
 
