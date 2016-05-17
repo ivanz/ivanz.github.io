@@ -11,21 +11,21 @@ categories:
 
 There was a fairly important update from Microsoft last week, which I personally felt went a bit under the cover.
 
-The .NET Core (and related) teamshave decided to  **drop `project.json` and go back to MSBuild and `*.csproj`**. This is not something that's already happened in the just released .Net Core RC2 and ASP.NET Core RC2, but it's happening.
+The .NET Core (and other teams) have decided to **drop `project.json` and go back to MSBuild and `*.csproj`**. This is not something that's already happened in the just released .Net Core RC2 and ASP.NET Core RC2, but it's happening.
 
-Wondering where that announcement was made? As far as I know - there wasn't one. It was mentioned in the stand-up (see the video at the end of this post).
+Wondering where that announcement was made? As far as I know - there wasn't necessarily one. It was mentioned in the stand-up (see the video at the end of this post).
 
 This is fairly disappointing, because the `project.json` was a breath of fresh air. However it's understandable (to an extend):
 
-* It would make the transition of existing Visual Studio solutions to .NET Core straighforward
+* It would make the transition of existing Visual Studio solutions to .NET Core straightforward
 * It's a huge change. It will enable leveraging existing investment in CI/RM based around MSBuild.
-* There is *a lot* going on under the hood during build in MSBuild. Think incremental compilation, resolving build-time dependencies, configuration management and tons more (hidden behind the e.g. `Microsoft.CSharp.targets` imported by every project)
-* Too much work to ship the whole thing on top of `dotnet cli` on time. Remember that it's no longer just about ASP.NET Core, but also build and release of console apps, mobile apps, UWP apps, Xamarin.
-* The .NET core team would have eventually ended up probably implementing/re-implementing a project model system and parts of msbuild.
+* There is *a lot* going on under the hood during build in MSBuild. Think incremental compilation, resolving build-time dependencies, configuration management and tons more (hidden behind the e.g. `Microsoft.CSharp.targets` imported by every project). And all of that will have to be re-implemented.
+* Too much work to ship `dotnet cli` on time - remember that it's no longer just about ASP.NET Core, but also console apps, UWP apps, Xamarin apps.
+* The .NET core team would have eventually ended up probably implementing/re-implementing parts of MSBuild.
 
 Still that doesn't make me happier right now.
 
-## Hello MSbuild and .csproj
+## Hello MSBuild and .csproj
 
 Appears this is what will happen in future releases:
 
@@ -40,7 +40,7 @@ The good news is that:
 * They is an effort to dramatically simplify and trim the structure of the `.csproj` - e.g. remove the requirement to have a list of files. GitHub issue here: [https://github.com/dotnet/roslyn-project-system/issues/40](https://github.com/dotnet/roslyn-project-system/issues/40)
 * There is a new revamped project system coming which will enable a lot of scenarios without the need for Visual Studio: [https://github.com/dotnet/roslyn-project-system/]
 (https://github.com/dotnet/roslyn-project-system/)
-* The goal is that even with the MSBuild set-up working with builds and project should be as seamless in Visual Studio IDE as well as outside of it.
+* The goal is that even with the MSBuild set-up working with builds and project will be as seamless in Visual Studio IDE as outside of it.
 
 
 ## Announcement video
