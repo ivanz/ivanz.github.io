@@ -13,6 +13,7 @@ $rs: 16px
 $font-serif: Linux Libertine
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
+$article-font-size: 21px
 
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
@@ -381,9 +382,9 @@ body
       padding-top: 31px
       margin-bottom: 4px
     p
-      font-weight: normal
+      font-weight: 400
       font-style: normal
-      font-size: 21px
+      font-size: $article-font-size
       line-height: 30px
       margin: 0
       padding-bottom: 30px
@@ -437,7 +438,7 @@ body
       padding: 0
       font-weight: 400
       font-style: normal
-      font-size: 23px
+      font-size: $article-font-size
       line-height: 30px
       margin-left: 30px
       margin-bottom: 12px
@@ -559,7 +560,7 @@ body
     .blog-title
       margin: 0
       padding: 0 0 10px
-      font-size: 50px
+      font-size: 40px
       text-align: center
       font-weight: 700
       letter-spacing: -2px
