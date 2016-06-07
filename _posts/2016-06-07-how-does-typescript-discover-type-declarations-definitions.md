@@ -1,12 +1,12 @@
 ---
-title: "How does TypeScript discover type declarations (definitions)? (and some suttle differences)"
+title: "How does TypeScript discover type declarations or definitions? (and some subtle differences)"
 author: Ivan Zlatev
 layout: post
 categories:
   - Coding
 ---
 
-In this blog post I will cover how does TypeScript discover type declarations and the suttle differences in what the declarations should look depending on where they come from.
+In this blog post I will cover how does TypeScript discover type declarations and the subtle differences in what the declarations should look depending on where they come from.
 
 
 Let's say that we have a JavaScript module like the one below and we want to consume it together with type declarations either in TypeScript or JavaScript (TypeScripts can process JavaScript and provide intellisense via `allowJs`).
@@ -37,7 +37,7 @@ This will trigger a search for type declarations during the compilation/transpil
 
 ## Tripple slash comments
 
-The legacy way to tell TypeScript that we have type declarations we want it to use for `hello` is to use a tripple slash comment like this:
+The legacy way to tell TypeScript that we have type declarations we want it to use for `hello` is to use a triple slash comment like this:
 
 ```typescript
 /// <reference path="path/to/declarations.d.ts" />
@@ -75,7 +75,7 @@ The `tsconfig.json` file defines the TypeScript project/workspace when `tsc --pr
 * (default) Include all `*.ts` (so also `*.d.ts`) files recursively. Files/paths can optionally be excluded using `exclude: [ "path1", "path2" ]`
 * Explicitly include a specific set of files for processing using `include: [ "path1", "path2" ]`
 
-What this means for us is that as long as the our type declarations files are included (implicilty or explicitly) in the `tsconfig.json` **we don't need to use tripple slash comments** to reference them, because they will already be part of the project/workspace.
+What this means for us is that as long as the our type declarations files are included (implicitly or explicitly) in the `tsconfig.json` **we don't need to use triple slash comments** to reference them, because they will already be part of the project/workspace.
 
 A typical `tsconfig.json` can look like this.
 
