@@ -1,5 +1,5 @@
 ---
-title: "How does TypeScript discover type declarations or definitions? (and some subtle differences)"
+title: "How does TypeScript discover type declarations and definitions for JavaScript code?"
 author: Ivan Zlatev
 layout: post
 categories:
