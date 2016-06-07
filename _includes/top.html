@@ -1,0 +1,18 @@
+<header class="blog-header">
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
+      <!--<a href="/about/">About me</a>-->
+      <a href="https://uk.linkedin.com/in/ivanzlatev">About me</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/get-in-touch/">Get in touch</a>
+    </div>
+</header>
