@@ -6,7 +6,7 @@ categories:
   - Coding
 ---
 
-In this blog post I will cover how does TypeScript discover type declarations and the subtle differences in what the declarations should look like depending on where they live. 
+In this blog post I will cover how TypeScript discovers type declarations and the subtle differences in what they should look like depending on where they live. 
 
 Edit: Note that Visual Studio IDE, Visual Studio Code and possibly other editors have built their TypeScript/JavaScript intellisense on top of the TypeScript language service (that is - TypeScript itself), so all of the below apply for those as well.
 
@@ -34,6 +34,8 @@ We want to consume it in TypeScript and we do this:
 
 ```typescript
 import * as hello from 'hello';
+
+hello.sayHi(new hello.Name("Ivan", "Zlatev"));
 ```
 
 This will trigger a search for type declarations during the compilation/transpilation phase, so let's go through the various possibilities.
