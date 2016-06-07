@@ -16,6 +16,7 @@ Let's say that we have a JavaScript module like the one below and we want to con
 ## Our JavaScript module code
 
 **hello.js**
+
 ```javascript
 module.exports.Name = function(first, last) {
   this.first = first;
@@ -23,13 +24,14 @@ module.exports.Name = function(first, last) {
 }
 
 module.exports.sayHi = function(name) {
-  console.log(`Hi ${name.first} ${name.last}!`);
+  console.log(```Hi ${name.first} ${name.last}!```);
 };
 ```
 
 We want to consume it in TypeScript and we do this:
 
 **main.ts**
+
 ```typescript
 import * as hello from 'hello';
 ```
