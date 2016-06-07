@@ -6,7 +6,7 @@ categories:
   - Coding
 ---
 
-In this blog post I will cover how does TypeScript discover type declarations and the subtle differences in what the declarations should look depending on where they come from. 
+In this blog post I will cover how does TypeScript discover type declarations and the subtle differences in what the declarations should look like depending on where they live. 
 
 Edit: Note that Visual Studio IDE, Visual Studio Code and possibly other editors have built their TypeScript/JavaScript intellisense on top of the TypeScript language service (that is - TypeScript itself), so all of the below apply for those as well.
 
