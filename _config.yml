@@ -70,6 +70,13 @@ social:
     share_title:
     share_link:
 
+  - icon:	rss
+    url:	http://ivanz.com/feed
+    desc:	Subscribe to my RSS Feed
+    share_url:
+    share_title:
+    share_link:
+
 # RSS feed
 rss-feed-limit: 50
 rss-show-full: "yes"
