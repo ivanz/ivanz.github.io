@@ -36,7 +36,9 @@ Here is an example `project.json` of a tests project which targets both .NET Cor
 1. Dependency on `Machine.Specifications` and `dotnet-test-mspec`
 2. `"testRunner": "mspec"`
 
+
 **project.json**
+
 ```json
 {
     "testRunner": "mspec",
