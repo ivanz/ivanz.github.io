@@ -1,5 +1,5 @@
 ---
-title: "Announcing Machine.Specifications (MSpec) for .NET Core, .NET CLI and .NET Standard"
+title: "Announcing Machine.Specifications (MSpec) 0.11 for .NET Core, .NET CLI and .NET Standard"
 author: Ivan Zlatev
 layout: post
 categories:
