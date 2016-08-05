@@ -54,7 +54,7 @@ Here is an example `project.json` of a tests project which targets both .NET Cor
     "dependencies": {
         "FluentAssertions": "4.12.0",
         "Machine.Specifications": "0.11.0",
-        "dotnet-test-mspec": "0.2.0"
+        "dotnet-test-mspec": "*"
     }
 }
 ```
