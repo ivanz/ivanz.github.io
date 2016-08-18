@@ -48,7 +48,7 @@ Note how the last declaration used to break the highlighting:
 
 ### Before
 
-![](/content/2016-08-18-visual-studio-code-csharp-improvements/arg-after.png)
+![](/content/2016-08-18-visual-studio-code-csharp-improvements/arg-before.png)
 
 ### After
 
