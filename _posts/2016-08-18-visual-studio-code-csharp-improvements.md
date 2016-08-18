@@ -6,7 +6,7 @@ categories:
   - Coding
 ---
 
-Nowadays Visual Studio Code is my editor of choice even for C#/.NET unless I need to do some serious refactoring or large code-bse exploration using ReSharper/CodeRush in the Visual Studio IDE. I've noticed a couple of opportunities for imporovement in the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) ([GitHub](https://github.com/OmniSharp/omnisharp-vscode)) and got my hands dirty. All of the below are available already in the latest 1.4 beta of the C# extension and will be included in the final release.
+Visual Studio Code is my editor of choice (even) for C#/.NET (unless I need to do some serious refactoring or software archeology exercise in the Visual Studio IDE with ReSharper). I've noticed a couple of opportunities for imporovements in the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) ([GitHub](https://github.com/OmniSharp/omnisharp-vscode)) and a couple of merged pull requests all of the below updates are now available in the latest 1.4 beta of the C# extension and will land in the next release.
 
 
 ## New: Navigate and view code of symbols for which source code is unavailable
