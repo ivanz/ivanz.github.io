@@ -15,7 +15,7 @@ The ability to dive into the structure of any type even such without source code
 
 ![](/content/2016-08-18-visual-studio-code-csharp-improvements/goto-reference.gif)
 
-![](/content/2016-08-18-visual-studio-code-csharp-improvements/peek-reference.gif)
+![](/content/2016-08-18-visual-studio-code-csharp-improvements/peek-reference.png)
 
 
 ## New: C# 6 Expression bodied members syntax highlighting
