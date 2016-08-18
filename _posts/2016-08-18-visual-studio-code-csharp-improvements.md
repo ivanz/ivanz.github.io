@@ -1,5 +1,5 @@
 ---
-title: "New features and imporvements coming to C# in Visual Studio Code"
+title: "New features and improvements coming to C# in Visual Studio Code"
 author: Ivan Zlatev
 layout: post
 categories:
