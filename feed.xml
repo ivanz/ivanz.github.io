@@ -18,8 +18,8 @@ permalink: /feed/
                     <description>{{ post.excerpt | strip_html | truncate: 250 }}</description>
                 {% endif %}
                             <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-                <link>{{ site.url }}{{ post.url }}?utm_source=blog&utm_medium=rss&utm_campaign=c1</link>
-                <guid isPermaLink="true">{{ site.url }}{{ post.url }}?utm_source=blog&utm_medium=rss&utm_campaign=c1</guid>
+                <link>{{ site.url }}{{ post.url }}?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=c1</link>
+                <guid isPermaLink="true">{{ site.url }}{{ post.url }}?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=c1</guid>
             </item>
         {% endfor %}
     </channel>
