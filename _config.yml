@@ -25,13 +25,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
-gems: 
+
+gems:
  - jekyll-paginate
  - jemoji
 
 paginate: 5
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title
 
 # Social share and comments
 
@@ -62,7 +62,7 @@ social:
     share_url:
     share_title:
     share_link:
-    
+
   - icon:	linkedin
     url:	https://uk.linkedin.com/in/ivanzlatev
     desc:	Connect with me on LinkedIn
