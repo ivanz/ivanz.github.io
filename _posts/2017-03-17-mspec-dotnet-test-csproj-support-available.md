@@ -17,6 +17,8 @@ The runner (`Machine.Specifications.Runner.VisualStudio` nuget package) supports
 
 For information on how to migrate from `project.json` to `.csproj`-based mspec tests please refer to [this wiki page](https://github.com/machine/machine.specifications/wiki/.NET-Core-%28.NET-CLI%29). 
 
+Another news is that Machine.Fake 2.8.0 is now also available with .NET Core (.NET Standard) support for Moq, FakeItEasy and NSubstitute.
+
 Here is an example .csproj targeting both .NET Core 1.1 and .NET Framework 4.6:
 
 ```
