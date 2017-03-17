@@ -1,5 +1,5 @@
 ---
-title: "MSpec (Machine Specifications) support for .csproj-based .NET Standard projects now available"
+title: "MSpec (Machine Specifications) support for .csproj-based .NET Core projects now available"
 author: Ivan Zlatev
 layout: post
 categories:
