@@ -6,7 +6,14 @@ categories:
   - Coding
 ---
 
-I am pleased to announce that it is now possible to use and run [Mspec (Machine Specification) tests](https://github.com/machine/machine.specifications) when using .csproj based .NET Standard / .NET Core projects including when multi-targeting. On top of that the runner comes with support for the Visual Studio Test Explorer for viewing and runnig tests.
+I am pleased to announce that it is now possible to use and run [Mspec (Machine Specification) tests](https://github.com/machine/machine.specifications) when using .csproj based .NET Standard / .NET Core projects including  multi-targeting scenarios. 
+
+The runner (`Machine.Specifications.Runner.VisualStudio` nuget package) supports:
+
+* `dotnet test`
+* Visual Studio's Test Explorer
+* vstest.console
+* Visual Studio Team Services and TFS
 
 For information on how to migrate from `project.json` to `.csproj`-based mspec tests please refer to [this wiki page](https://github.com/machine/machine.specifications/wiki/.NET-Core-%28.NET-CLI%29). 
 
