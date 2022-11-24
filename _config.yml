@@ -39,15 +39,17 @@ disqus: ivanz
 
 # Social icons and sharing options
 
-twitter_handle: '@ivanzlatev'
-
-social:
-  - icon:	twitter
-    url:	https://twitter.com/ivanzlatev
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+# Disabled due to Twitter "2.0"
+#
+# twitter_handle: '@ivanzlatev'
+#
+# social:
+#   - icon:	twitter
+#     url:	https://twitter.com/ivanzlatev
+#     desc: Follow me on twitter
+#     share_url: http://twitter.com/share
+#     share_title: ?text=
+#     share_link: "&amp;url="
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
