@@ -38,12 +38,12 @@ permalink: /:year/:month/:day/:title
 disqus: ivanz
 
 # Social icons and sharing options
-
+#
 # Disabled due to Twitter "2.0"
 #
 # twitter_handle: '@ivanzlatev'
 #
-# social:
+social:
 #   - icon:	twitter
 #     url:	https://twitter.com/ivanzlatev
 #     desc: Follow me on twitter
