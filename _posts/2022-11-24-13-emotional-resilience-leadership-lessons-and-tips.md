@@ -1,5 +1,5 @@
 ---
-title: "13 Emotional Resiliency Challenges in Engineering Leadership and Management + Tips"
+title: "13 Emotional Resilience Challenges in Engineering Leadership and Management + Tips"
 author: Ivan Zlatev
 layout: post
 image: /content/2022-11-24-13-emotional-resilience-leadership-lessons-and-tips/20220505_161543.jpg
