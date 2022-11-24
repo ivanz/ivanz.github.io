@@ -13,6 +13,10 @@ This is a rather long post as it captures the 13 days of lessons learnt and tips
 
 The content here is predominantly aimed at new managers and leaders as well as new managers of managers, but hopefully others can benefit too.
 
+Here is a pretty picture to give you a sense of calm, before we start as it will be intense.
+
+![A pretty picture to give you a piece of calm](../../../../C:/code/ivanz.github.io/content/2022-11-24-13-emotional-resilience-leadership-lessons-and-tips/20220505_161543.jpg)
+
 ## 1. Feedback loops become slower and it takes longer to see the impact of your decisions and actions, which can create self-doubt and insecurity creep 
   - Ensure you have measurable definition of success in place for yourself and that you refer to it.
   - Set clear goal and expectations for what you are focusing on and make sure that you have either reliable qualitative or quantitative way to measure progress and success
