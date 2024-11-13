@@ -1,13 +1,12 @@
 // Place your settings in this file to overwrite default and user settings.
 {
     // Configure glob patterns for excluding files and folders.
-	"files.exclude": {
-		"**/.git": true,
-		"**/.DS_Store": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
         "**/_site": true,
         "**/.sass-cache": true
-	},
-    
+    },
     "editor.wrappingColumn": 0,
     "spellright.language": [
         "en"
@@ -17,5 +16,8 @@
         "latex",
         "plaintext",
         "yaml"
-    ]
+    ],
+    "markdown.copyFiles.destination": {
+        "_posts/**/*": "content/${documentBaseName}/"
+    }
 }
