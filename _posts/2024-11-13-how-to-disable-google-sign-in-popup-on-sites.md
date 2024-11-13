@@ -12,9 +12,10 @@ I've gotten tired of all those "Sign in with Google" pop-ups, especially the bad
 
 ## Steps for Web
 
-1. Install your favourite ad blocker (e.g. I use [uBlock Origin](https://ublockorigin.com/)) Add the following custom rule and you are done
-
-`||accounts.google.com/gsi/*`
+1. Install your favourite ad blocker (e.g. I use [uBlock Origin](https://ublockorigin.com/)) 
+2. Add the following custom rule and you are done: 
+   
+      `||accounts.google.com/gsi/*`
 
 ## Steps for Android apps
 1. **Go to `My Account` -> `Security` ([link](https://myaccount.google.com/security))**
