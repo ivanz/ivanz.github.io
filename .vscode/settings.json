@@ -18,6 +18,6 @@
         "yaml"
     ],
     "markdown.copyFiles.destination": {
-        "_posts/**/*": "content/${documentBaseName}/"
+        "_posts/**/*": "../content/${documentBaseName}/"
     }
 }
